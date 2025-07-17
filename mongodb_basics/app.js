@@ -1,5 +1,5 @@
 const mongoose = require('mongoose')
-mongoose.connect("mongodb+srv://rishi2030s:rishi2031s@cluster0.cmmlsfx.mongodb.net/").then(()=>console.log("Db connected successfully")).catch((e)=>console.log(e));
+mongoose.connect("<connect>").then(()=>console.log("Db connected successfully")).catch((e)=>console.log(e));
 
 
 const userSchema = new mongoose.Schema({
