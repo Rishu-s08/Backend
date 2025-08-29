@@ -1,0 +1,744 @@
+{
+  message: 'API Gateway listening on port 3000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-22T03:21:23.081Z'
+}
+{
+  message: 'user service URL: http://localhost:3001',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-22T03:21:23.083Z'
+}
+{
+  message: 'API Gateway listening on port 3000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-22T03:22:22.896Z'
+}
+{
+  message: 'user service URL: http://localhost:3001',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-22T03:22:22.897Z'
+}
+{
+  message: 'Received POST request for /v1/auth/register',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-22T03:23:47.345Z'
+}
+{
+  message: 'Request body: {"username":"proxy","email":"proxy@gmail.com","password":"rishiiii","fullName":"rishi something"}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-22T03:23:47.346Z'
+}
+{
+  message: 'Proxy error: ',
+  level: 'error',
+  service: 'api-gateway',
+  timestamp: '2025-08-22T03:23:47.352Z'
+}
+{
+  message: 'API Gateway listening on port 3000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-22T03:25:05.044Z'
+}
+{
+  message: 'user service URL: http://localhost:3001',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-22T03:25:05.046Z'
+}
+{
+  message: 'Received POST request for /v1/auth/register',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-22T03:25:09.096Z'
+}
+{
+  message: 'Request body: {"username":"proxy","email":"proxy@gmail.com","password":"rishiiii","fullName":"rishi something"}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-22T03:25:09.097Z'
+}
+{
+  message: 'Proxy error: ',
+  level: 'error',
+  service: 'api-gateway',
+  timestamp: '2025-08-22T03:25:09.100Z'
+}
+{
+  message: 'API Gateway listening on port 3000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-22T03:25:38.220Z'
+}
+{
+  message: 'user service URL: http://localhost:3001',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-22T03:25:38.222Z'
+}
+{
+  message: 'Received POST request for /v1/auth/register',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-22T03:25:41.208Z'
+}
+{
+  message: 'Request body: {"username":"proxy","email":"proxy@gmail.com","password":"rishiiii","fullName":"rishi something"}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-22T03:25:41.208Z'
+}
+{
+  message: 'Proxy error: ',
+  level: 'error',
+  service: 'api-gateway',
+  timestamp: '2025-08-22T03:25:41.212Z'
+}
+{
+  message: 'API Gateway listening on port 3000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-22T03:28:50.340Z'
+}
+{
+  message: 'user service URL: http://localhost:3001',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-22T03:28:50.342Z'
+}
+{
+  message: 'Received POST request for /v1/auth/register',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-22T03:28:55.516Z'
+}
+{
+  message: 'Request body: {"username":"proxy","email":"proxy@gmail.com","password":"rishiiii","fullName":"rishi something"}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-22T03:28:55.516Z'
+}
+{
+  message: 'Proxy error: ',
+  level: 'error',
+  service: 'api-gateway',
+  timestamp: '2025-08-22T03:28:55.519Z'
+}
+{
+  message: 'API Gateway listening on port 3000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-22T03:29:15.278Z'
+}
+{
+  message: 'user service URL: http://localhost:3001',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-22T03:29:15.280Z'
+}
+{
+  message: 'Received POST request for /v1/auth/register',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-22T03:29:16.778Z'
+}
+{
+  message: 'Request body: {"username":"proxy","email":"proxy@gmail.com","password":"rishiiii","fullName":"rishi something"}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-22T03:29:16.778Z'
+}
+{
+  message: 'Proxy error: ',
+  level: 'error',
+  service: 'api-gateway',
+  timestamp: '2025-08-22T03:29:16.782Z'
+}
+{
+  message: 'API Gateway listening on port 3000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-22T03:30:32.508Z'
+}
+{
+  message: 'user service URL: http://localhost:3001',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-22T03:30:32.510Z'
+}
+{
+  message: 'Received POST request for /v1/auth/register',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-22T03:30:37.796Z'
+}
+{
+  message: 'Request body: {"username":"proxy","email":"proxy@gmail.com","password":"rishiiii","fullName":"rishi something"}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-22T03:30:37.797Z'
+}
+{
+  message: 'Proxy error: ',
+  level: 'error',
+  service: 'api-gateway',
+  timestamp: '2025-08-22T03:30:37.800Z'
+}
+{
+  message: 'Received POST request for /v1/auth/register',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-22T03:30:38.767Z'
+}
+{
+  message: 'Request body: {"username":"proxy","email":"proxy@gmail.com","password":"rishiiii","fullName":"rishi something"}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-22T03:30:38.767Z'
+}
+{
+  message: 'Proxy error: ',
+  level: 'error',
+  service: 'api-gateway',
+  timestamp: '2025-08-22T03:30:38.769Z'
+}
+{
+  message: 'Received GET request for /v1/auth/register',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-22T03:31:08.797Z'
+}
+{
+  message: 'Request body: {"username":"proxy","email":"proxy@gmail.com","password":"rishiiii","fullName":"rishi something"}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-22T03:31:08.798Z'
+}
+{
+  message: 'Proxy error: ',
+  level: 'error',
+  service: 'api-gateway',
+  timestamp: '2025-08-22T03:31:08.800Z'
+}
+{
+  message: 'API Gateway listening on port 3000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-22T03:31:45.944Z'
+}
+{
+  message: 'user service URL: http://localhost:3001',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-22T03:31:45.946Z'
+}
+{
+  message: 'Received POST request for /v1/auth/register',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-22T03:31:49.371Z'
+}
+{
+  message: 'Request body: {"username":"proxy","email":"proxy@gmail.com","password":"rishiiii","fullName":"rishi something"}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-22T03:31:49.371Z'
+}
+{
+  message: 'Proxy error: ',
+  level: 'error',
+  service: 'api-gateway',
+  timestamp: '2025-08-22T03:31:49.375Z'
+}
+{
+  message: 'API Gateway listening on port 3000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-22T03:35:32.549Z'
+}
+{
+  message: 'user service URL: http://localhost:3001',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-22T03:35:32.551Z'
+}
+{
+  message: 'Received POST request for /v1/auth/register',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-22T03:36:19.057Z'
+}
+{
+  message: 'Request body: {"username":"proxy","email":"proxy@gmail.com","password":"rishiiii","fullName":"rishi something"}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-22T03:36:19.058Z'
+}
+{
+  message: 'Proxy error: ',
+  level: 'error',
+  service: 'api-gateway',
+  timestamp: '2025-08-22T03:36:19.061Z'
+}
+{
+  message: 'API Gateway listening on port 3000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-22T03:38:35.629Z'
+}
+{
+  message: 'user service URL: http://localhost:3001',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-22T03:38:35.630Z'
+}
+{
+  message: 'Received POST request for /v1/auth/register',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-22T03:38:38.762Z'
+}
+{
+  message: 'Request body: {"username":"proxy","email":"proxy@gmail.com","password":"rishiiii","fullName":"rishi something"}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-22T03:38:38.762Z'
+}
+{
+  message: 'Proxy error: ',
+  level: 'error',
+  service: 'api-gateway',
+  timestamp: '2025-08-22T03:38:38.766Z'
+}
+{
+  message: 'Received POST request for /v1/auth/register',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-22T03:40:13.626Z'
+}
+{
+  message: 'Request body: {"username":"proxy","email":"proxy@gmail.com","password":"rishiiii","fullName":"rishi something"}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-22T03:40:13.626Z'
+}
+{
+  message: 'Proxy error: ',
+  level: 'error',
+  service: 'api-gateway',
+  timestamp: '2025-08-22T03:40:13.628Z'
+}
+{
+  message: 'Received POST request for /v1/auth/register',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-22T03:40:14.546Z'
+}
+{
+  message: 'Request body: {"username":"proxy","email":"proxy@gmail.com","password":"rishiiii","fullName":"rishi something"}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-22T03:40:14.547Z'
+}
+{
+  message: 'Proxy error: ',
+  level: 'error',
+  service: 'api-gateway',
+  timestamp: '2025-08-22T03:40:14.548Z'
+}
+{
+  message: 'Received POST request for /v1/auth/register',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-22T03:40:20.617Z'
+}
+{
+  message: 'Request body: {"username":"asdf","email":"asdf@gmail.com","password":"asdf","fullName":"asdf"}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-22T03:40:20.617Z'
+}
+{
+  message: 'Proxy error: ',
+  level: 'error',
+  service: 'api-gateway',
+  timestamp: '2025-08-22T03:40:20.619Z'
+}
+{
+  message: 'Received POST request for /v1/auth/register',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-22T03:40:46.087Z'
+}
+{
+  message: 'Request body: {"username":"asdf","email":"asdf@gmail.com","password":"asdf","fullName":"asdf"}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-22T03:40:46.087Z'
+}
+{
+  message: 'Proxy error: ',
+  level: 'error',
+  service: 'api-gateway',
+  timestamp: '2025-08-22T03:40:46.088Z'
+}
+{
+  message: 'Received POST request for /v1/auth/register',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-22T03:42:00.431Z'
+}
+{
+  message: 'Request body: {"username":"asdf","email":"asdf@gmail.com","password":"asdf","fullName":"asdf"}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-22T03:42:00.431Z'
+}
+{
+  message: 'Proxy error: ',
+  level: 'error',
+  service: 'api-gateway',
+  timestamp: '2025-08-22T03:42:00.433Z'
+}
+{
+  message: 'API Gateway listening on port 3000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-22T03:42:56.149Z'
+}
+{
+  message: 'user service URL: http://localhost:3001',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-22T03:42:56.151Z'
+}
+{
+  message: 'Received POST request for /v1/auth/register',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-22T03:43:00.100Z'
+}
+{
+  message: 'Request body: {"username":"asdf","email":"asdf@gmail.com","password":"asdf","fullName":"asdf"}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-22T03:43:00.101Z'
+}
+{
+  message: 'Proxy error: ',
+  level: 'error',
+  service: 'api-gateway',
+  timestamp: '2025-08-22T03:43:00.104Z'
+}
+{
+  message: 'Received POST request for /v1/auth/register',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-22T03:44:56.132Z'
+}
+{
+  message: 'Request body: {"username":"asdf","email":"asdf@gmail.com","password":"asdf","fullName":"asdf"}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-22T03:44:56.133Z'
+}
+{
+  message: 'Response from user-service: 429',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-22T03:44:56.149Z'
+}
+{
+  message: 'Received POST request for /v1/auth/register',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-22T03:45:22.935Z'
+}
+{
+  message: 'Request body: {"username":"asdf","email":"asdf@gmail.com","password":"asdf","fullName":"asdf"}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-22T03:45:22.935Z'
+}
+{
+  message: 'Response from user-service: 429',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-22T03:45:22.938Z'
+}
+{
+  message: 'Received POST request for /v1/auth/register',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-22T03:46:06.630Z'
+}
+{
+  message: 'Request body: {"username":"asdf","email":"asdf@gmail.com","password":"asdf","fullName":"asdf"}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-22T03:46:06.630Z'
+}
+{
+  message: 'Response from user-service: 429',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-22T03:46:06.644Z'
+}
+{
+  message: 'Received POST request for /v1/auth/register',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-22T03:46:20.714Z'
+}
+{
+  message: 'Request body: {"username":"asdf","email":"asdf@gmail.com","password":"asdf","fullName":"asdf"}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-22T03:46:20.714Z'
+}
+{
+  message: 'Response from user-service: 400',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-22T03:46:20.733Z'
+}
+{
+  message: 'Received POST request for /v1/auth/register',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-22T03:46:26.489Z'
+}
+{
+  message: 'Request body: {"username":"asdf","email":"asdf@gmail.com","password":"asdfasdf","fullName":"asdf"}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-22T03:46:26.489Z'
+}
+{
+  message: 'Response from user-service: 201',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-22T03:46:26.688Z'
+}
+{
+  message: 'API Gateway listening on port 3000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-22T04:05:52.044Z'
+}
+{
+  message: 'user service URL: http://localhost:3001',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-22T04:05:52.046Z'
+}
+{
+  message: 'API Gateway listening on port 3000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-23T02:54:28.168Z'
+}
+{
+  message: 'user service URL: http://localhost:3001',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-23T02:54:28.169Z'
+}
+{
+  message: 'Received POST request for /v1/auth/register',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-23T02:54:57.804Z'
+}
+{
+  message: 'Request body: {"username":"a","email":"a@gmail.com","password":"asdfasdf","fullName":"asdf"}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-23T02:54:57.805Z'
+}
+{
+  message: 'Response from user-service: 400',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-23T02:54:57.838Z'
+}
+{
+  message: 'Received POST request for /v1/auth/register',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-23T02:55:02.423Z'
+}
+{
+  message: 'Request body: {"username":"aaa","email":"a@gmail.com","password":"asdfasdf","fullName":"asdf"}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-23T02:55:02.424Z'
+}
+{
+  message: 'Response from user-service: 201',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-23T02:55:02.704Z'
+}
+{
+  message: 'Received GET request for /v1/auth/login',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-23T02:56:36.823Z'
+}
+{
+  message: 'Request body: {"email":"a@gmail.com","password":"asdfasdf"}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-23T02:56:36.824Z'
+}
+{
+  message: 'Response from user-service: 404',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-23T02:56:36.828Z'
+}
+{
+  message: 'Received POST request for /v1/auth/login',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-23T02:56:41.680Z'
+}
+{
+  message: 'Request body: {"email":"a@gmail.com","password":"asdfasdf"}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-23T02:56:41.681Z'
+}
+{
+  message: 'Response from user-service: 500',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-23T02:56:41.684Z'
+}
+{
+  message: 'Received POST request for /v1/auth/login',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-23T02:57:25.801Z'
+}
+{
+  message: 'Request body: {"email":"a@gmail.com","password":"asdfasdf"}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-23T02:57:25.802Z'
+}
+{
+  message: 'Response from user-service: 200',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-23T02:57:25.956Z'
+}
+{
+  message: 'Received POST request for /v1/auth/refresh-token',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-23T02:58:30.273Z'
+}
+{
+  message: 'Request body: undefined',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-23T02:58:30.273Z'
+}
+{
+  message: 'Response from user-service: 400',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-23T02:58:30.278Z'
+}
+{
+  message: 'Received GET request for /v1/auth/refresh-token',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-23T02:58:39.603Z'
+}
+{
+  message: 'Request body: undefined',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-23T02:58:39.604Z'
+}
+{
+  message: 'Response from user-service: 404',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-23T02:58:39.607Z'
+}
+{
+  message: 'Received POST request for /v1/auth/refresh-token',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-23T02:58:43.431Z'
+}
+{
+  message: 'Request body: undefined',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-23T02:58:43.432Z'
+}
+{
+  message: 'Response from user-service: 400',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-23T02:58:43.435Z'
+}
+{
+  message: 'Received POST request for /v1/auth/refresh-token',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-23T02:58:49.835Z'
+}
+{
+  message: 'Request body: {"refreshtoken":"9b78d161aebf0bef3eab59e86ced91726974221b18736619222e993bf007b2d76cfe81a69bb8bf25f976affef0a30c658fee8e1d01924236e010a1cd8f46dc60"}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-23T02:58:49.835Z'
+}
+{
+  message: 'Response from user-service: 400',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-23T02:58:49.838Z'
+}
+{
+  message: 'Received POST request for /v1/auth/refresh-token',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-23T02:59:06.715Z'
+}
+{
+  message: 'Request body: {"refreshToken":"9b78d161aebf0bef3eab59e86ced91726974221b18736619222e993bf007b2d76cfe81a69bb8bf25f976affef0a30c658fee8e1d01924236e010a1cd8f46dc60"}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-23T02:59:06.716Z'
+}
+{
+  message: 'Response from user-service: 200',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-23T02:59:06.990Z'
+}
+{
+  message: 'API Gateway listening on port 3000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-23T04:39:54.763Z'
+}
+{
+  message: 'user service URL: http://localhost:3001',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-23T04:39:54.764Z'
+}

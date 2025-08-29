@@ -1,0 +1,102 @@
+{
+  message: 'Proxy error: ',
+  level: 'error',
+  service: 'api-gateway',
+  timestamp: '2025-08-22T03:23:47.352Z'
+}
+{
+  message: 'Proxy error: ',
+  level: 'error',
+  service: 'api-gateway',
+  timestamp: '2025-08-22T03:25:09.100Z'
+}
+{
+  message: 'Proxy error: ',
+  level: 'error',
+  service: 'api-gateway',
+  timestamp: '2025-08-22T03:25:41.212Z'
+}
+{
+  message: 'Proxy error: ',
+  level: 'error',
+  service: 'api-gateway',
+  timestamp: '2025-08-22T03:28:55.519Z'
+}
+{
+  message: 'Proxy error: ',
+  level: 'error',
+  service: 'api-gateway',
+  timestamp: '2025-08-22T03:29:16.782Z'
+}
+{
+  message: 'Proxy error: ',
+  level: 'error',
+  service: 'api-gateway',
+  timestamp: '2025-08-22T03:30:37.800Z'
+}
+{
+  message: 'Proxy error: ',
+  level: 'error',
+  service: 'api-gateway',
+  timestamp: '2025-08-22T03:30:38.769Z'
+}
+{
+  message: 'Proxy error: ',
+  level: 'error',
+  service: 'api-gateway',
+  timestamp: '2025-08-22T03:31:08.800Z'
+}
+{
+  message: 'Proxy error: ',
+  level: 'error',
+  service: 'api-gateway',
+  timestamp: '2025-08-22T03:31:49.375Z'
+}
+{
+  message: 'Proxy error: ',
+  level: 'error',
+  service: 'api-gateway',
+  timestamp: '2025-08-22T03:36:19.061Z'
+}
+{
+  message: 'Proxy error: ',
+  level: 'error',
+  service: 'api-gateway',
+  timestamp: '2025-08-22T03:38:38.766Z'
+}
+{
+  message: 'Proxy error: ',
+  level: 'error',
+  service: 'api-gateway',
+  timestamp: '2025-08-22T03:40:13.628Z'
+}
+{
+  message: 'Proxy error: ',
+  level: 'error',
+  service: 'api-gateway',
+  timestamp: '2025-08-22T03:40:14.548Z'
+}
+{
+  message: 'Proxy error: ',
+  level: 'error',
+  service: 'api-gateway',
+  timestamp: '2025-08-22T03:40:20.619Z'
+}
+{
+  message: 'Proxy error: ',
+  level: 'error',
+  service: 'api-gateway',
+  timestamp: '2025-08-22T03:40:46.088Z'
+}
+{
+  message: 'Proxy error: ',
+  level: 'error',
+  service: 'api-gateway',
+  timestamp: '2025-08-22T03:42:00.433Z'
+}
+{
+  message: 'Proxy error: ',
+  level: 'error',
+  service: 'api-gateway',
+  timestamp: '2025-08-22T03:43:00.104Z'
+}

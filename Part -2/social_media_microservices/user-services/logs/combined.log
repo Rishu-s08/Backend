@@ -1,0 +1,1968 @@
+{
+  message: 'User login started',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T02:15:20.298Z'
+}
+{
+  message: 'Refresh token generation started',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T02:15:20.300Z'
+}
+{
+  message: 'User logout started',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T02:15:20.300Z'
+}
+{
+  message: 'Server running on port 3001',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T02:15:20.318Z'
+}
+{
+  service: 'user-service',
+  message: "Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/",
+  errorLabelSet: Set(0) {},
+  reason: TopologyDescription {
+    type: 'ReplicaSetNoPrimary',
+    servers: Map(3) {
+      'ac-hqc0sa6-shard-00-00.ep6vddc.mongodb.net:27017' => ServerDescription {
+        address: 'ac-hqc0sa6-shard-00-00.ep6vddc.mongodb.net:27017',
+        type: 'Unknown',
+        hosts: [],
+        passives: [],
+        arbiters: [],
+        tags: {},
+        minWireVersion: 0,
+        maxWireVersion: 0,
+        roundTripTime: -1,
+        minRoundTripTime: 0,
+        lastUpdateTime: 424325,
+        lastWriteDate: 0,
+        error: MongoNetworkError: 281A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1605:SSL alert number 80
+        
+            at TLSSocket.<anonymous> (C:\Users\Rishi\Desktop\backend\Part -2\social_media_microservices\user-services\node_modules\mongodb\lib\cmap\connect.js:286:44)
+            at Object.onceWrapper (node:events:633:26)
+            at TLSSocket.emit (node:events:518:28)
+            at emitErrorNT (node:internal/streams/destroy:170:8)
+            at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+            at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+          errorLabelSet: Set(1) { 'ResetPool' },
+          beforeHandshake: false,
+          [cause]: [Error: 281A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1605:SSL alert number 80
+          ] {
+            library: 'SSL routines',
+            reason: 'tlsv1 alert internal error',
+            code: 'ERR_SSL_TLSV1_ALERT_INTERNAL_ERROR'
+          }
+        },
+        topologyVersion: null,
+        setName: null,
+        setVersion: null,
+        electionId: null,
+        logicalSessionTimeoutMinutes: null,
+        maxMessageSizeBytes: null,
+        maxWriteBatchSize: null,
+        maxBsonObjectSize: null,
+        primary: null,
+        me: null,
+        '$clusterTime': null,
+        iscryptd: false
+      },
+      'ac-hqc0sa6-shard-00-02.ep6vddc.mongodb.net:27017' => ServerDescription {
+        address: 'ac-hqc0sa6-shard-00-02.ep6vddc.mongodb.net:27017',
+        type: 'Unknown',
+        hosts: [],
+        passives: [],
+        arbiters: [],
+        tags: {},
+        minWireVersion: 0,
+        maxWireVersion: 0,
+        roundTripTime: -1,
+        minRoundTripTime: 0,
+        lastUpdateTime: 424322,
+        lastWriteDate: 0,
+        error: MongoNetworkError: 281A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1605:SSL alert number 80
+        
+            at TLSSocket.<anonymous> (C:\Users\Rishi\Desktop\backend\Part -2\social_media_microservices\user-services\node_modules\mongodb\lib\cmap\connect.js:286:44)
+            at Object.onceWrapper (node:events:633:26)
+            at TLSSocket.emit (node:events:518:28)
+            at emitErrorNT (node:internal/streams/destroy:170:8)
+            at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+            at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+          errorLabelSet: Set(1) { 'ResetPool' },
+          beforeHandshake: false,
+          [cause]: [Error: 281A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1605:SSL alert number 80
+          ] {
+            library: 'SSL routines',
+            reason: 'tlsv1 alert internal error',
+            code: 'ERR_SSL_TLSV1_ALERT_INTERNAL_ERROR'
+          }
+        },
+        topologyVersion: null,
+        setName: null,
+        setVersion: null,
+        electionId: null,
+        logicalSessionTimeoutMinutes: null,
+        maxMessageSizeBytes: null,
+        maxWriteBatchSize: null,
+        maxBsonObjectSize: null,
+        primary: null,
+        me: null,
+        '$clusterTime': null,
+        iscryptd: false
+      },
+      'ac-hqc0sa6-shard-00-01.ep6vddc.mongodb.net:27017' => ServerDescription {
+        address: 'ac-hqc0sa6-shard-00-01.ep6vddc.mongodb.net:27017',
+        type: 'Unknown',
+        hosts: [],
+        passives: [],
+        arbiters: [],
+        tags: {},
+        minWireVersion: 0,
+        maxWireVersion: 0,
+        roundTripTime: -1,
+        minRoundTripTime: 0,
+        lastUpdateTime: 423941,
+        lastWriteDate: 0,
+        error: MongoNetworkError: 281A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1605:SSL alert number 80
+        
+            at TLSSocket.<anonymous> (C:\Users\Rishi\Desktop\backend\Part -2\social_media_microservices\user-services\node_modules\mongodb\lib\cmap\connect.js:286:44)
+            at Object.onceWrapper (node:events:633:26)
+            at TLSSocket.emit (node:events:518:28)
+            at emitErrorNT (node:internal/streams/destroy:170:8)
+            at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+            at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+          errorLabelSet: Set(1) { 'ResetPool' },
+          beforeHandshake: false,
+          [cause]: [Error: 281A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1605:SSL alert number 80
+          ] {
+            library: 'SSL routines',
+            reason: 'tlsv1 alert internal error',
+            code: 'ERR_SSL_TLSV1_ALERT_INTERNAL_ERROR'
+          }
+        },
+        topologyVersion: null,
+        setName: null,
+        setVersion: null,
+        electionId: null,
+        logicalSessionTimeoutMinutes: null,
+        maxMessageSizeBytes: null,
+        maxWriteBatchSize: null,
+        maxBsonObjectSize: null,
+        primary: null,
+        me: null,
+        '$clusterTime': null,
+        iscryptd: false
+      }
+    },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: 'atlas-10bc9e-shard-0',
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined,
+  cause: TopologyDescription {
+    type: 'ReplicaSetNoPrimary',
+    servers: Map(3) {
+      'ac-hqc0sa6-shard-00-00.ep6vddc.mongodb.net:27017' => ServerDescription {
+        address: 'ac-hqc0sa6-shard-00-00.ep6vddc.mongodb.net:27017',
+        type: 'Unknown',
+        hosts: [],
+        passives: [],
+        arbiters: [],
+        tags: {},
+        minWireVersion: 0,
+        maxWireVersion: 0,
+        roundTripTime: -1,
+        minRoundTripTime: 0,
+        lastUpdateTime: 424325,
+        lastWriteDate: 0,
+        error: MongoNetworkError: 281A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1605:SSL alert number 80
+        
+            at TLSSocket.<anonymous> (C:\Users\Rishi\Desktop\backend\Part -2\social_media_microservices\user-services\node_modules\mongodb\lib\cmap\connect.js:286:44)
+            at Object.onceWrapper (node:events:633:26)
+            at TLSSocket.emit (node:events:518:28)
+            at emitErrorNT (node:internal/streams/destroy:170:8)
+            at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+            at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+          errorLabelSet: Set(1) { 'ResetPool' },
+          beforeHandshake: false,
+          [cause]: [Error: 281A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1605:SSL alert number 80
+          ] {
+            library: 'SSL routines',
+            reason: 'tlsv1 alert internal error',
+            code: 'ERR_SSL_TLSV1_ALERT_INTERNAL_ERROR'
+          }
+        },
+        topologyVersion: null,
+        setName: null,
+        setVersion: null,
+        electionId: null,
+        logicalSessionTimeoutMinutes: null,
+        maxMessageSizeBytes: null,
+        maxWriteBatchSize: null,
+        maxBsonObjectSize: null,
+        primary: null,
+        me: null,
+        '$clusterTime': null,
+        iscryptd: false
+      },
+      'ac-hqc0sa6-shard-00-02.ep6vddc.mongodb.net:27017' => ServerDescription {
+        address: 'ac-hqc0sa6-shard-00-02.ep6vddc.mongodb.net:27017',
+        type: 'Unknown',
+        hosts: [],
+        passives: [],
+        arbiters: [],
+        tags: {},
+        minWireVersion: 0,
+        maxWireVersion: 0,
+        roundTripTime: -1,
+        minRoundTripTime: 0,
+        lastUpdateTime: 424322,
+        lastWriteDate: 0,
+        error: MongoNetworkError: 281A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1605:SSL alert number 80
+        
+            at TLSSocket.<anonymous> (C:\Users\Rishi\Desktop\backend\Part -2\social_media_microservices\user-services\node_modules\mongodb\lib\cmap\connect.js:286:44)
+            at Object.onceWrapper (node:events:633:26)
+            at TLSSocket.emit (node:events:518:28)
+            at emitErrorNT (node:internal/streams/destroy:170:8)
+            at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+            at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+          errorLabelSet: Set(1) { 'ResetPool' },
+          beforeHandshake: false,
+          [cause]: [Error: 281A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1605:SSL alert number 80
+          ] {
+            library: 'SSL routines',
+            reason: 'tlsv1 alert internal error',
+            code: 'ERR_SSL_TLSV1_ALERT_INTERNAL_ERROR'
+          }
+        },
+        topologyVersion: null,
+        setName: null,
+        setVersion: null,
+        electionId: null,
+        logicalSessionTimeoutMinutes: null,
+        maxMessageSizeBytes: null,
+        maxWriteBatchSize: null,
+        maxBsonObjectSize: null,
+        primary: null,
+        me: null,
+        '$clusterTime': null,
+        iscryptd: false
+      },
+      'ac-hqc0sa6-shard-00-01.ep6vddc.mongodb.net:27017' => ServerDescription {
+        address: 'ac-hqc0sa6-shard-00-01.ep6vddc.mongodb.net:27017',
+        type: 'Unknown',
+        hosts: [],
+        passives: [],
+        arbiters: [],
+        tags: {},
+        minWireVersion: 0,
+        maxWireVersion: 0,
+        roundTripTime: -1,
+        minRoundTripTime: 0,
+        lastUpdateTime: 423941,
+        lastWriteDate: 0,
+        error: MongoNetworkError: 281A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1605:SSL alert number 80
+        
+            at TLSSocket.<anonymous> (C:\Users\Rishi\Desktop\backend\Part -2\social_media_microservices\user-services\node_modules\mongodb\lib\cmap\connect.js:286:44)
+            at Object.onceWrapper (node:events:633:26)
+            at TLSSocket.emit (node:events:518:28)
+            at emitErrorNT (node:internal/streams/destroy:170:8)
+            at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+            at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+          errorLabelSet: Set(1) { 'ResetPool' },
+          beforeHandshake: false,
+          [cause]: [Error: 281A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1605:SSL alert number 80
+          ] {
+            library: 'SSL routines',
+            reason: 'tlsv1 alert internal error',
+            code: 'ERR_SSL_TLSV1_ALERT_INTERNAL_ERROR'
+          }
+        },
+        topologyVersion: null,
+        setName: null,
+        setVersion: null,
+        electionId: null,
+        logicalSessionTimeoutMinutes: null,
+        maxMessageSizeBytes: null,
+        maxWriteBatchSize: null,
+        maxBsonObjectSize: null,
+        primary: null,
+        me: null,
+        '$clusterTime': null,
+        iscryptd: false
+      }
+    },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: 'atlas-10bc9e-shard-0',
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  level: 'error',
+  stack: "MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/\n" +
+    '    at _handleConnectionErrors (C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\user-services\\node_modules\\mongoose\\lib\\connection.js:1165:11)\n' +
+    '    at NativeConnection.openUri (C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\user-services\\node_modules\\mongoose\\lib\\connection.js:1096:11)',
+  timestamp: '2025-08-22T02:15:50.406Z'
+}
+{
+  message: 'User login started',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T02:16:51.722Z'
+}
+{
+  message: 'Refresh token generation started',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T02:16:51.724Z'
+}
+{
+  message: 'User logout started',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T02:16:51.724Z'
+}
+{
+  message: 'Server running on port 3001',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T02:16:51.740Z'
+}
+{
+  message: 'MongoDB connected',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T02:16:56.680Z'
+}
+{
+  message: 'Received POST request for /register',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T02:19:56.554Z'
+}
+{
+  message: 'Request body: {"username":"rishi","email":"r@gmail.com","password":"rishi","fullName":"rishi rishi"}',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T02:19:56.555Z'
+}
+{
+  message: 'Received POST request for /api/auth/register',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T02:20:21.698Z'
+}
+{
+  message: 'Request body: {"username":"rishi","email":"r@gmail.com","password":"rishi","fullName":"rishi rishi"}',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T02:20:21.699Z'
+}
+{
+  message: 'User registration started',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T02:20:21.704Z'
+}
+{
+  '0': '"',
+  '1': 'p',
+  '2': 'a',
+  '3': 's',
+  '4': 's',
+  '5': 'w',
+  '6': 'o',
+  '7': 'r',
+  '8': 'd',
+  '9': '"',
+  '10': ' ',
+  '11': 'l',
+  '12': 'e',
+  '13': 'n',
+  '14': 'g',
+  '15': 't',
+  '16': 'h',
+  '17': ' ',
+  '18': 'm',
+  '19': 'u',
+  '20': 's',
+  '21': 't',
+  '22': ' ',
+  '23': 'b',
+  '24': 'e',
+  '25': ' ',
+  '26': 'a',
+  '27': 't',
+  '28': ' ',
+  '29': 'l',
+  '30': 'e',
+  '31': 'a',
+  '32': 's',
+  '33': 't',
+  '34': ' ',
+  '35': '6',
+  '36': ' ',
+  '37': 'c',
+  '38': 'h',
+  '39': 'a',
+  '40': 'r',
+  '41': 'a',
+  '42': 'c',
+  '43': 't',
+  '44': 'e',
+  '45': 'r',
+  '46': 's',
+  '47': ' ',
+  '48': 'l',
+  '49': 'o',
+  '50': 'n',
+  '51': 'g',
+  service: 'user-service',
+  level: 'warn',
+  message: 'Validation error:',
+  timestamp: '2025-08-22T02:20:21.712Z'
+}
+{
+  message: 'Received POST request for /api/auth/register',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T02:20:28.037Z'
+}
+{
+  message: 'Request body: {"username":"rishi","email":"r@gmail.com","password":"rishii","fullName":"rishi rishi"}',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T02:20:28.038Z'
+}
+{
+  message: 'User registration started',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T02:20:28.038Z'
+}
+{
+  '0': '"',
+  '1': 'f',
+  '2': 'u',
+  '3': 'l',
+  '4': 'l',
+  '5': 'N',
+  '6': 'a',
+  '7': 'm',
+  '8': 'e',
+  '9': '"',
+  '10': ' ',
+  '11': 'i',
+  '12': 's',
+  '13': ' ',
+  '14': 'n',
+  '15': 'o',
+  '16': 't',
+  '17': ' ',
+  '18': 'a',
+  '19': 'l',
+  '20': 'l',
+  '21': 'o',
+  '22': 'w',
+  '23': 'e',
+  '24': 'd',
+  service: 'user-service',
+  level: 'warn',
+  message: 'Validation error:',
+  timestamp: '2025-08-22T02:20:28.039Z'
+}
+{
+  message: 'Received POST request for /api/auth/register',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T02:20:37.417Z'
+}
+{
+  message: 'Request body: {"username":"rishi","email":"r@gmail.com","password":"rishii","fullName":"rishi_rishi"}',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T02:20:37.417Z'
+}
+{
+  message: 'User registration started',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T02:20:37.418Z'
+}
+{
+  '0': '"',
+  '1': 'f',
+  '2': 'u',
+  '3': 'l',
+  '4': 'l',
+  '5': 'N',
+  '6': 'a',
+  '7': 'm',
+  '8': 'e',
+  '9': '"',
+  '10': ' ',
+  '11': 'i',
+  '12': 's',
+  '13': ' ',
+  '14': 'n',
+  '15': 'o',
+  '16': 't',
+  '17': ' ',
+  '18': 'a',
+  '19': 'l',
+  '20': 'l',
+  '21': 'o',
+  '22': 'w',
+  '23': 'e',
+  '24': 'd',
+  service: 'user-service',
+  level: 'warn',
+  message: 'Validation error:',
+  timestamp: '2025-08-22T02:20:37.418Z'
+}
+{
+  message: 'Received POST request for /api/auth/register',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T02:20:56.127Z'
+}
+{
+  message: 'Request body: {"username":"rishi","email":"r@gmail.com","password":"rishii","fullName":"rishiii"}',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T02:20:56.127Z'
+}
+{
+  message: 'User registration started',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T02:20:56.128Z'
+}
+{
+  '0': '"',
+  '1': 'f',
+  '2': 'u',
+  '3': 'l',
+  '4': 'l',
+  '5': 'N',
+  '6': 'a',
+  '7': 'm',
+  '8': 'e',
+  '9': '"',
+  '10': ' ',
+  '11': 'i',
+  '12': 's',
+  '13': ' ',
+  '14': 'n',
+  '15': 'o',
+  '16': 't',
+  '17': ' ',
+  '18': 'a',
+  '19': 'l',
+  '20': 'l',
+  '21': 'o',
+  '22': 'w',
+  '23': 'e',
+  '24': 'd',
+  service: 'user-service',
+  level: 'warn',
+  message: 'Validation error:',
+  timestamp: '2025-08-22T02:20:56.128Z'
+}
+{
+  message: 'User login started',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T02:22:24.399Z'
+}
+{
+  message: 'Refresh token generation started',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T02:22:24.401Z'
+}
+{
+  message: 'User logout started',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T02:22:24.401Z'
+}
+{
+  message: 'Server running on port 3001',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T02:22:24.417Z'
+}
+{
+  message: 'MongoDB connected',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T02:22:25.158Z'
+}
+{
+  message: 'Received POST request for /api/auth/register',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T02:22:29.630Z'
+}
+{
+  message: 'Request body: {"username":"rishi","email":"r@gmail.com","password":"rishii","fullName":"rishiii asdf"}',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T02:22:29.630Z'
+}
+{
+  message: 'User registration started',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T02:22:29.633Z'
+}
+{
+  '0': '"',
+  '1': 'f',
+  '2': 'u',
+  '3': 'l',
+  '4': 'l',
+  '5': 'N',
+  '6': 'a',
+  '7': 'm',
+  '8': 'e',
+  '9': '"',
+  '10': ' ',
+  '11': 'i',
+  '12': 's',
+  '13': ' ',
+  '14': 'n',
+  '15': 'o',
+  '16': 't',
+  '17': ' ',
+  '18': 'a',
+  '19': 'l',
+  '20': 'l',
+  '21': 'o',
+  '22': 'w',
+  '23': 'e',
+  '24': 'd',
+  service: 'user-service',
+  level: 'warn',
+  message: 'Validation error:',
+  timestamp: '2025-08-22T02:22:29.636Z'
+}
+{
+  message: 'SyntaxError: Expected double-quoted property name in JSON at position 88 (line 5 column 1)\n' +
+    '    at JSON.parse (<anonymous>)\n' +
+    '    at parse (C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\user-services\\node_modules\\body-parser\\lib\\types\\json.js:77:19)\n' +
+    '    at C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\user-services\\node_modules\\body-parser\\lib\\read.js:123:18\n' +
+    '    at AsyncResource.runInAsyncScope (node:async_hooks:214:14)\n' +
+    '    at invokeCallback (C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\user-services\\node_modules\\raw-body\\index.js:238:16)\n' +
+    '    at done (C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\user-services\\node_modules\\raw-body\\index.js:227:7)\n' +
+    '    at IncomingMessage.onEnd (C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\user-services\\node_modules\\raw-body\\index.js:287:7)\n' +
+    '    at IncomingMessage.emit (node:events:518:28)\n' +
+    '    at endReadableNT (node:internal/streams/readable:1698:12)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)',
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2025-08-22T02:23:31.873Z'
+}
+{
+  message: 'Received POST request for /api/auth/register',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T02:23:36.250Z'
+}
+{
+  message: 'Request body: {"username":"rishi","email":"r@gmail.com","password":"rishii"}',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T02:23:36.251Z'
+}
+{
+  message: 'User registration started',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T02:23:36.253Z'
+}
+{
+  service: 'user-service',
+  errors: {
+    password: ValidatorError: Password must be at least 8 characters long
+        at validate (C:\Users\Rishi\Desktop\backend\Part -2\social_media_microservices\user-services\node_modules\mongoose\lib\schemaType.js:1407:13)
+        at SchemaType.doValidate (C:\Users\Rishi\Desktop\backend\Part -2\social_media_microservices\user-services\node_modules\mongoose\lib\schemaType.js:1391:7)
+        at C:\Users\Rishi\Desktop\backend\Part -2\social_media_microservices\user-services\node_modules\mongoose\lib\document.js:3111:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:85:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Password must be at least 8 characters long',
+        type: 'minlength',
+        minlength: 8,
+        path: 'password',
+        fullPath: undefined,
+        value: 'rishii'
+      },
+      kind: 'minlength',
+      path: 'password',
+      value: 'rishii',
+      reason: undefined,
+      [Symbol(mongoose#validatorError)]: true
+    },
+    fullName: ValidatorError: Path `fullName` is required.
+        at validate (C:\Users\Rishi\Desktop\backend\Part -2\social_media_microservices\user-services\node_modules\mongoose\lib\schemaType.js:1407:13)
+        at SchemaType.doValidate (C:\Users\Rishi\Desktop\backend\Part -2\social_media_microservices\user-services\node_modules\mongoose\lib\schemaType.js:1391:7)
+        at C:\Users\Rishi\Desktop\backend\Part -2\social_media_microservices\user-services\node_modules\mongoose\lib\document.js:3111:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:85:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `fullName` is required.',
+        type: 'required',
+        path: 'fullName',
+        fullPath: undefined,
+        value: undefined
+      },
+      kind: 'required',
+      path: 'fullName',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose#validatorError)]: true
+    }
+  },
+  _message: 'User validation failed',
+  level: 'error',
+  message: 'Error during user registration: User validation failed: password: Password must be at least 8 characters long, fullName: Path `fullName` is required.',
+  stack: 'ValidationError: User validation failed: password: Password must be at least 8 characters long, fullName: Path `fullName` is required.\n' +
+    '    at Document.invalidate (C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\user-services\\node_modules\\mongoose\\lib\\document.js:3358:32)\n' +
+    '    at C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\user-services\\node_modules\\mongoose\\lib\\document.js:3119:17\n' +
+    '    at C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\user-services\\node_modules\\mongoose\\lib\\schemaType.js:1410:9\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)',
+  timestamp: '2025-08-22T02:23:36.309Z'
+}
+{
+  message: 'User login started',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T02:23:52.665Z'
+}
+{
+  message: 'Refresh token generation started',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T02:23:52.667Z'
+}
+{
+  message: 'User logout started',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T02:23:52.667Z'
+}
+{
+  message: 'Server running on port 3001',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T02:23:52.683Z'
+}
+{
+  message: 'MongoDB connected',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T02:23:53.380Z'
+}
+{
+  message: 'Received POST request for /api/auth/register',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T02:23:56.126Z'
+}
+{
+  message: 'Request body: {"username":"rishi","email":"r@gmail.com","password":"rishii","fullName":"rishiii asdf"}',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T02:23:56.127Z'
+}
+{
+  message: 'User registration started',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T02:23:56.130Z'
+}
+{
+  '0': '"',
+  '1': 'f',
+  '2': 'u',
+  '3': 'l',
+  '4': 'l',
+  '5': 'N',
+  '6': 'a',
+  '7': 'm',
+  '8': 'e',
+  '9': '"',
+  '10': ' ',
+  '11': 'i',
+  '12': 's',
+  '13': ' ',
+  '14': 'n',
+  '15': 'o',
+  '16': 't',
+  '17': ' ',
+  '18': 'a',
+  '19': 'l',
+  '20': 'l',
+  '21': 'o',
+  '22': 'w',
+  '23': 'e',
+  '24': 'd',
+  service: 'user-service',
+  level: 'warn',
+  message: 'Validation error:',
+  timestamp: '2025-08-22T02:23:56.133Z'
+}
+{
+  message: 'Received POST request for /api/auth/register',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T02:24:09.789Z'
+}
+{
+  message: 'Request body: {"username":"rishi","email":"r@gmail.com","password":"rishii","fullName":"rishiii"}',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T02:24:09.789Z'
+}
+{
+  message: 'User registration started',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T02:24:09.791Z'
+}
+{
+  '0': '"',
+  '1': 'f',
+  '2': 'u',
+  '3': 'l',
+  '4': 'l',
+  '5': 'N',
+  '6': 'a',
+  '7': 'm',
+  '8': 'e',
+  '9': '"',
+  '10': ' ',
+  '11': 'i',
+  '12': 's',
+  '13': ' ',
+  '14': 'n',
+  '15': 'o',
+  '16': 't',
+  '17': ' ',
+  '18': 'a',
+  '19': 'l',
+  '20': 'l',
+  '21': 'o',
+  '22': 'w',
+  '23': 'e',
+  '24': 'd',
+  service: 'user-service',
+  level: 'warn',
+  message: 'Validation error:',
+  timestamp: '2025-08-22T02:24:09.792Z'
+}
+{
+  message: 'User login started',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T02:27:03.246Z'
+}
+{
+  message: 'Refresh token generation started',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T02:27:03.247Z'
+}
+{
+  message: 'User logout started',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T02:27:03.248Z'
+}
+{
+  message: 'Server running on port 3001',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T02:27:03.263Z'
+}
+{
+  message: 'MongoDB connected',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T02:27:03.979Z'
+}
+{
+  message: 'Received POST request for /api/auth/register',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T02:27:07.718Z'
+}
+{
+  message: 'Request body: {"username":"rishi","email":"r@gmail.com","password":"rishii","fullName":"rishiii"}',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T02:27:07.718Z'
+}
+{
+  message: 'User registration started',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T02:27:07.721Z'
+}
+{
+  service: 'user-service',
+  errors: {
+    password: ValidatorError: Password must be at least 8 characters long
+        at validate (C:\Users\Rishi\Desktop\backend\Part -2\social_media_microservices\user-services\node_modules\mongoose\lib\schemaType.js:1407:13)
+        at SchemaType.doValidate (C:\Users\Rishi\Desktop\backend\Part -2\social_media_microservices\user-services\node_modules\mongoose\lib\schemaType.js:1391:7)
+        at C:\Users\Rishi\Desktop\backend\Part -2\social_media_microservices\user-services\node_modules\mongoose\lib\document.js:3111:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:85:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Password must be at least 8 characters long',
+        type: 'minlength',
+        minlength: 8,
+        path: 'password',
+        fullPath: undefined,
+        value: 'rishii'
+      },
+      kind: 'minlength',
+      path: 'password',
+      value: 'rishii',
+      reason: undefined,
+      [Symbol(mongoose#validatorError)]: true
+    }
+  },
+  _message: 'User validation failed',
+  level: 'error',
+  message: 'Error during user registration: User validation failed: password: Password must be at least 8 characters long',
+  stack: 'ValidationError: User validation failed: password: Password must be at least 8 characters long\n' +
+    '    at Document.invalidate (C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\user-services\\node_modules\\mongoose\\lib\\document.js:3358:32)\n' +
+    '    at C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\user-services\\node_modules\\mongoose\\lib\\document.js:3119:17\n' +
+    '    at C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\user-services\\node_modules\\mongoose\\lib\\schemaType.js:1410:9\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)',
+  timestamp: '2025-08-22T02:27:07.778Z'
+}
+{
+  message: 'Received POST request for /api/auth/register',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T02:27:35.380Z'
+}
+{
+  message: 'Request body: {"username":"rishi","email":"r@gmail.com","password":"rishiiii","fullName":"rishiii"}',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T02:27:35.381Z'
+}
+{
+  message: 'User registration started',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T02:27:35.383Z'
+}
+{
+  service: 'user-service',
+  buffer: <Buffer 68 a7 d5 97 1e 83 73 bb 2a 76 51 a7>,
+  level: 'info',
+  message: 'User registration successful:',
+  timestamp: '2025-08-22T02:27:35.548Z'
+}
+{
+  service: 'user-service',
+  errors: {
+    user: ValidatorError: Path `user` is required.
+        at validate (C:\Users\Rishi\Desktop\backend\Part -2\social_media_microservices\user-services\node_modules\mongoose\lib\schemaType.js:1407:13)
+        at SchemaType.doValidate (C:\Users\Rishi\Desktop\backend\Part -2\social_media_microservices\user-services\node_modules\mongoose\lib\schemaType.js:1391:7)
+        at C:\Users\Rishi\Desktop\backend\Part -2\social_media_microservices\user-services\node_modules\mongoose\lib\document.js:3111:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:85:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `user` is required.',
+        type: 'required',
+        path: 'user',
+        fullPath: undefined,
+        value: undefined
+      },
+      kind: 'required',
+      path: 'user',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose#validatorError)]: true
+    }
+  },
+  _message: 'RefreshToken validation failed',
+  level: 'error',
+  message: 'Error during user registration: RefreshToken validation failed: user: Path `user` is required.',
+  stack: 'ValidationError: RefreshToken validation failed: user: Path `user` is required.\n' +
+    '    at Document.invalidate (C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\user-services\\node_modules\\mongoose\\lib\\document.js:3358:32)\n' +
+    '    at C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\user-services\\node_modules\\mongoose\\lib\\document.js:3119:17\n' +
+    '    at C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\user-services\\node_modules\\mongoose\\lib\\schemaType.js:1410:9\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)',
+  timestamp: '2025-08-22T02:27:35.553Z'
+}
+{
+  message: 'User login started',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T02:31:07.536Z'
+}
+{
+  message: 'Refresh token generation started',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T02:31:07.538Z'
+}
+{
+  message: 'User logout started',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T02:31:07.539Z'
+}
+{
+  message: 'Server running on port 3001',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T02:31:07.554Z'
+}
+{
+  message: 'MongoDB connected',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T02:31:08.326Z'
+}
+{
+  message: 'Received POST request for /api/auth/register',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T02:31:15.355Z'
+}
+{
+  message: 'Request body: {"username":"rishi","email":"r@gmail.com","password":"rishiiii","fullName":"rishiii"}',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T02:31:15.355Z'
+}
+{
+  message: 'User registration started',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T02:31:15.359Z'
+}
+{
+  service: 'user-service',
+  '$__': InternalCache {
+    activePaths: ctor {
+      paths: {
+        fullName: 'init',
+        password: 'init',
+        email: 'init',
+        username: 'init',
+        _id: 'init',
+        profilePicture: 'init',
+        createdAt: 'init',
+        updatedAt: 'init',
+        __v: 'init'
+      },
+      states: {
+        require: {},
+        init: {
+          _id: true,
+          username: true,
+          email: true,
+          password: true,
+          fullName: true,
+          profilePicture: true,
+          createdAt: true,
+          updatedAt: true,
+          __v: true
+        }
+      }
+    },
+    skipId: true
+  },
+  '$isNew': false,
+  _doc: {
+    _id: new ObjectId('68a7d5971e8373bb2a7651a7'),
+    username: 'rishi',
+    email: 'r@gmail.com',
+    password: '$argon2id$v=19$m=65536,t=3,p=4$O37YCJFElSvPIqkHgnWsCA$u9xxOJrHaX3OEv9L9+EYruLEcfUVUWlFljOkR8WLQgY',
+    fullName: 'rishiii',
+    profilePicture: 'https://ui-avatars.com/api/?name=rishiii&background=random&color=random',
+    createdAt: 2025-08-22T02:27:35.433Z,
+    updatedAt: 2025-08-22T02:27:35.433Z,
+    __v: 0
+  },
+  level: 'warn',
+  message: 'User already exists:',
+  timestamp: '2025-08-22T02:31:15.406Z'
+}
+{
+  message: 'Received POST request for /api/auth/register',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T02:31:24.448Z'
+}
+{
+  message: 'Request body: {"username":"rishi1","email":"r1@gmail.com","password":"rishiiii","fullName":"rishiii"}',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T02:31:24.449Z'
+}
+{
+  message: 'User registration started',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T02:31:24.450Z'
+}
+{
+  service: 'user-service',
+  buffer: <Buffer 68 a7 d6 7c 34 70 61 70 3d 17 da 02>,
+  level: 'info',
+  message: 'User registration successful:',
+  timestamp: '2025-08-22T02:31:24.600Z'
+}
+{
+  service: 'user-service',
+  errors: {
+    user: ValidatorError: Path `user` is required.
+        at validate (C:\Users\Rishi\Desktop\backend\Part -2\social_media_microservices\user-services\node_modules\mongoose\lib\schemaType.js:1407:13)
+        at SchemaType.doValidate (C:\Users\Rishi\Desktop\backend\Part -2\social_media_microservices\user-services\node_modules\mongoose\lib\schemaType.js:1391:7)
+        at C:\Users\Rishi\Desktop\backend\Part -2\social_media_microservices\user-services\node_modules\mongoose\lib\document.js:3111:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:85:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `user` is required.',
+        type: 'required',
+        path: 'user',
+        fullPath: undefined,
+        value: undefined
+      },
+      kind: 'required',
+      path: 'user',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose#validatorError)]: true
+    }
+  },
+  _message: 'RefreshToken validation failed',
+  level: 'error',
+  message: 'Error during user registration: RefreshToken validation failed: user: Path `user` is required.',
+  stack: 'ValidationError: RefreshToken validation failed: user: Path `user` is required.\n' +
+    '    at Document.invalidate (C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\user-services\\node_modules\\mongoose\\lib\\document.js:3358:32)\n' +
+    '    at C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\user-services\\node_modules\\mongoose\\lib\\document.js:3119:17\n' +
+    '    at C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\user-services\\node_modules\\mongoose\\lib\\schemaType.js:1410:9\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)',
+  timestamp: '2025-08-22T02:31:24.606Z'
+}
+{
+  message: 'User login started',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T02:32:58.588Z'
+}
+{
+  message: 'Refresh token generation started',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T02:32:58.590Z'
+}
+{
+  message: 'User logout started',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T02:32:58.590Z'
+}
+{
+  message: 'Server running on port 3001',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T02:32:58.606Z'
+}
+{
+  message: 'MongoDB connected',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T02:33:00.288Z'
+}
+{
+  message: 'User login started',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T02:34:43.671Z'
+}
+{
+  message: 'Refresh token generation started',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T02:34:43.673Z'
+}
+{
+  message: 'User logout started',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T02:34:43.673Z'
+}
+{
+  message: 'Server running on port 3001',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T02:34:43.688Z'
+}
+{
+  message: 'MongoDB connected',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T02:34:44.313Z'
+}
+{
+  message: 'Received POST request for /api/auth/register',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T02:34:50.729Z'
+}
+{
+  message: 'Request body: {"username":"asdf","email":"r1a@gmail.com","password":"rishiiii","fullName":"rishiii"}',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T02:34:50.730Z'
+}
+{
+  message: 'User registration started',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T02:34:50.733Z'
+}
+{
+  service: 'user-service',
+  buffer: <Buffer 68 a7 d7 4a 48 4f 12 46 0e c7 30 5b>,
+  level: 'info',
+  message: 'User registration successful:',
+  timestamp: '2025-08-22T02:34:50.873Z'
+}
+{
+  service: 'user-service',
+  errors: {
+    user: ValidatorError: Path `user` is required.
+        at validate (C:\Users\Rishi\Desktop\backend\Part -2\social_media_microservices\user-services\node_modules\mongoose\lib\schemaType.js:1407:13)
+        at SchemaType.doValidate (C:\Users\Rishi\Desktop\backend\Part -2\social_media_microservices\user-services\node_modules\mongoose\lib\schemaType.js:1391:7)
+        at C:\Users\Rishi\Desktop\backend\Part -2\social_media_microservices\user-services\node_modules\mongoose\lib\document.js:3111:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:85:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `user` is required.',
+        type: 'required',
+        path: 'user',
+        fullPath: undefined,
+        value: undefined
+      },
+      kind: 'required',
+      path: 'user',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose#validatorError)]: true
+    }
+  },
+  _message: 'RefreshToken validation failed',
+  level: 'error',
+  message: 'Error during user registration: RefreshToken validation failed: user: Path `user` is required.',
+  stack: 'ValidationError: RefreshToken validation failed: user: Path `user` is required.\n' +
+    '    at Document.invalidate (C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\user-services\\node_modules\\mongoose\\lib\\document.js:3358:32)\n' +
+    '    at C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\user-services\\node_modules\\mongoose\\lib\\document.js:3119:17\n' +
+    '    at C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\user-services\\node_modules\\mongoose\\lib\\schemaType.js:1410:9\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)',
+  timestamp: '2025-08-22T02:34:50.876Z'
+}
+{
+  message: 'User login started',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T02:38:13.064Z'
+}
+{
+  message: 'Refresh token generation started',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T02:38:13.066Z'
+}
+{
+  message: 'User logout started',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T02:38:13.066Z'
+}
+{
+  message: 'Server running on port 3001',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T02:38:13.082Z'
+}
+{
+  message: 'MongoDB connected',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T02:38:13.808Z'
+}
+{
+  message: 'Received POST request for /api/auth/register',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T02:38:55.742Z'
+}
+{
+  message: 'Request body: {"username":"new","email":"n@gmail.com","password":"rishiiii","fullName":"rishi something"}',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T02:38:55.743Z'
+}
+{
+  message: 'User registration started',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T02:38:55.748Z'
+}
+{
+  service: 'user-service',
+  buffer: <Buffer 68 a7 d8 3f 65 5a 8b b5 18 b7 c5 a4>,
+  level: 'info',
+  message: 'User registration successful:',
+  timestamp: '2025-08-22T02:38:55.903Z'
+}
+{
+  message: 'User login started',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T02:40:45.685Z'
+}
+{
+  message: 'Refresh token generation started',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T02:40:45.687Z'
+}
+{
+  message: 'User logout started',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T02:40:45.687Z'
+}
+{
+  message: 'Server running on port 3001',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T02:40:45.703Z'
+}
+{
+  message: 'MongoDB connected',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T02:40:46.420Z'
+}
+{
+  message: 'User login started',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T03:44:43.465Z'
+}
+{
+  message: 'Refresh token generation started',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T03:44:43.467Z'
+}
+{
+  message: 'User logout started',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T03:44:43.467Z'
+}
+{
+  message: 'Server running on port 3001',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T03:44:43.482Z'
+}
+{
+  message: 'MongoDB connected',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T03:44:44.245Z'
+}
+{
+  message: 'Received POST request for /api/auth/register',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T03:44:56.142Z'
+}
+{
+  message: 'Request body: {"username":"asdf","email":"asdf@gmail.com","password":"asdf","fullName":"asdf"}',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T03:44:56.143Z'
+}
+{
+  message: 'Sensitive endpoint rate limit exceeded for IP: ::1',
+  level: 'warn',
+  service: 'user-service',
+  timestamp: '2025-08-22T03:44:56.146Z'
+}
+{
+  message: 'Received POST request for /api/auth/register',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T03:45:22.937Z'
+}
+{
+  message: 'Request body: {"username":"asdf","email":"asdf@gmail.com","password":"asdf","fullName":"asdf"}',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T03:45:22.937Z'
+}
+{
+  message: 'Sensitive endpoint rate limit exceeded for IP: ::1',
+  level: 'warn',
+  service: 'user-service',
+  timestamp: '2025-08-22T03:45:22.938Z'
+}
+{
+  message: 'User login started',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T03:46:02.544Z'
+}
+{
+  message: 'Refresh token generation started',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T03:46:02.546Z'
+}
+{
+  message: 'User logout started',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T03:46:02.546Z'
+}
+{
+  message: 'Server running on port 3001',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T03:46:02.561Z'
+}
+{
+  message: 'MongoDB connected',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T03:46:03.256Z'
+}
+{
+  message: 'Received POST request for /api/auth/register',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T03:46:06.638Z'
+}
+{
+  message: 'Request body: {"username":"asdf","email":"asdf@gmail.com","password":"asdf","fullName":"asdf"}',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T03:46:06.638Z'
+}
+{
+  message: 'Sensitive endpoint rate limit exceeded for IP: ::1',
+  level: 'warn',
+  service: 'user-service',
+  timestamp: '2025-08-22T03:46:06.642Z'
+}
+{
+  message: 'User login started',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T03:46:19.224Z'
+}
+{
+  message: 'Refresh token generation started',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T03:46:19.226Z'
+}
+{
+  message: 'User logout started',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T03:46:19.226Z'
+}
+{
+  message: 'Server running on port 3001',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T03:46:19.241Z'
+}
+{
+  message: 'MongoDB connected',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T03:46:19.810Z'
+}
+{
+  message: 'Received POST request for /api/auth/register',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T03:46:20.724Z'
+}
+{
+  message: 'Request body: {"username":"asdf","email":"asdf@gmail.com","password":"asdf","fullName":"asdf"}',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T03:46:20.724Z'
+}
+{
+  message: 'User registration started',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T03:46:20.727Z'
+}
+{
+  '0': '"',
+  '1': 'p',
+  '2': 'a',
+  '3': 's',
+  '4': 's',
+  '5': 'w',
+  '6': 'o',
+  '7': 'r',
+  '8': 'd',
+  '9': '"',
+  '10': ' ',
+  '11': 'l',
+  '12': 'e',
+  '13': 'n',
+  '14': 'g',
+  '15': 't',
+  '16': 'h',
+  '17': ' ',
+  '18': 'm',
+  '19': 'u',
+  '20': 's',
+  '21': 't',
+  '22': ' ',
+  '23': 'b',
+  '24': 'e',
+  '25': ' ',
+  '26': 'a',
+  '27': 't',
+  '28': ' ',
+  '29': 'l',
+  '30': 'e',
+  '31': 'a',
+  '32': 's',
+  '33': 't',
+  '34': ' ',
+  '35': '6',
+  '36': ' ',
+  '37': 'c',
+  '38': 'h',
+  '39': 'a',
+  '40': 'r',
+  '41': 'a',
+  '42': 'c',
+  '43': 't',
+  '44': 'e',
+  '45': 'r',
+  '46': 's',
+  '47': ' ',
+  '48': 'l',
+  '49': 'o',
+  '50': 'n',
+  '51': 'g',
+  service: 'user-service',
+  level: 'warn',
+  message: 'Validation error:',
+  timestamp: '2025-08-22T03:46:20.731Z'
+}
+{
+  message: 'Received POST request for /api/auth/register',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T03:46:26.490Z'
+}
+{
+  message: 'Request body: {"username":"asdf","email":"asdf@gmail.com","password":"asdfasdf","fullName":"asdf"}',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T03:46:26.491Z'
+}
+{
+  message: 'User registration started',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T03:46:26.492Z'
+}
+{
+  service: 'user-service',
+  buffer: <Buffer 68 a7 e8 12 ac ce 76 7f c6 4e 9c 9c>,
+  level: 'info',
+  message: 'User registration successful:',
+  timestamp: '2025-08-22T03:46:26.631Z'
+}
+{
+  message: 'User login started',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T04:05:52.268Z'
+}
+{
+  message: 'Refresh token generation started',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T04:05:52.269Z'
+}
+{
+  message: 'User logout started',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T04:05:52.270Z'
+}
+{
+  message: 'Server running on port 3001',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T04:05:52.285Z'
+}
+{
+  message: 'MongoDB connected',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-22T04:05:53.115Z'
+}
+{
+  message: 'Server running on port 3001',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-23T02:54:39.038Z'
+}
+{
+  message: 'MongoDB connected',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-23T02:54:40.116Z'
+}
+{
+  message: 'Received POST request for /api/auth/register',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-23T02:54:57.826Z'
+}
+{
+  message: 'Request body: {"username":"a","email":"a@gmail.com","password":"asdfasdf","fullName":"asdf"}',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-23T02:54:57.827Z'
+}
+{
+  message: 'User registration started',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-23T02:54:57.831Z'
+}
+{
+  '0': '"',
+  '1': 'u',
+  '2': 's',
+  '3': 'e',
+  '4': 'r',
+  '5': 'n',
+  '6': 'a',
+  '7': 'm',
+  '8': 'e',
+  '9': '"',
+  '10': ' ',
+  '11': 'l',
+  '12': 'e',
+  '13': 'n',
+  '14': 'g',
+  '15': 't',
+  '16': 'h',
+  '17': ' ',
+  '18': 'm',
+  '19': 'u',
+  '20': 's',
+  '21': 't',
+  '22': ' ',
+  '23': 'b',
+  '24': 'e',
+  '25': ' ',
+  '26': 'a',
+  '27': 't',
+  '28': ' ',
+  '29': 'l',
+  '30': 'e',
+  '31': 'a',
+  '32': 's',
+  '33': 't',
+  '34': ' ',
+  '35': '3',
+  '36': ' ',
+  '37': 'c',
+  '38': 'h',
+  '39': 'a',
+  '40': 'r',
+  '41': 'a',
+  '42': 'c',
+  '43': 't',
+  '44': 'e',
+  '45': 'r',
+  '46': 's',
+  '47': ' ',
+  '48': 'l',
+  '49': 'o',
+  '50': 'n',
+  '51': 'g',
+  service: 'user-service',
+  level: 'warn',
+  message: 'Validation error:',
+  timestamp: '2025-08-23T02:54:57.835Z'
+}
+{
+  message: 'Received POST request for /api/auth/register',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-23T02:55:02.427Z'
+}
+{
+  message: 'Request body: {"username":"aaa","email":"a@gmail.com","password":"asdfasdf","fullName":"asdf"}',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-23T02:55:02.428Z'
+}
+{
+  message: 'User registration started',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-23T02:55:02.430Z'
+}
+{
+  service: 'user-service',
+  buffer: <Buffer 68 a9 2d 86 9c 7a 16 44 44 ec be e7>,
+  level: 'info',
+  message: 'User registration successful:',
+  timestamp: '2025-08-23T02:55:02.645Z'
+}
+{
+  message: 'Received GET request for /api/auth/login',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-23T02:56:36.825Z'
+}
+{
+  message: 'Request body: {"email":"a@gmail.com","password":"asdfasdf"}',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-23T02:56:36.825Z'
+}
+{
+  message: 'Received POST request for /api/auth/login',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-23T02:56:41.679Z'
+}
+{
+  message: 'Request body: {"email":"a@gmail.com","password":"asdfasdf"}',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-23T02:56:41.679Z'
+}
+{
+  message: 'User login started',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-23T02:56:41.680Z'
+}
+{
+  service: 'user-service',
+  level: 'error',
+  message: 'Error during user login: validateLogin is not defined',
+  stack: 'ReferenceError: validateLogin is not defined\n' +
+    '    at loginUser (C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\user-services\\src\\controllers\\user_controller.js:64:25)\n' +
+    '    at Layer.handleRequest (C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\user-services\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+    '    at next (C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\user-services\\node_modules\\router\\lib\\route.js:157:13)\n' +
+    '    at Route.dispatch (C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\user-services\\node_modules\\router\\lib\\route.js:117:3)\n' +
+    '    at handle (C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\user-services\\node_modules\\router\\index.js:435:11)\n' +
+    '    at Layer.handleRequest (C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\user-services\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+    '    at C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\user-services\\node_modules\\router\\index.js:295:15\n' +
+    '    at processParams (C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\user-services\\node_modules\\router\\index.js:582:12)\n' +
+    '    at next (C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\user-services\\node_modules\\router\\index.js:291:5)\n' +
+    '    at Function.handle (C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\user-services\\node_modules\\router\\index.js:186:3)',
+  timestamp: '2025-08-23T02:56:41.680Z'
+}
+{
+  message: 'Server running on port 3001',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-23T02:57:16.019Z'
+}
+{
+  message: 'MongoDB connected',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-23T02:57:16.936Z'
+}
+{
+  message: 'Server running on port 3001',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-23T02:57:23.440Z'
+}
+{
+  message: 'MongoDB connected',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-23T02:57:24.179Z'
+}
+{
+  message: 'Received POST request for /api/auth/login',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-23T02:57:25.807Z'
+}
+{
+  message: 'Request body: {"email":"a@gmail.com","password":"asdfasdf"}',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-23T02:57:25.808Z'
+}
+{
+  message: 'User login started',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-23T02:57:25.809Z'
+}
+{
+  message: 'Received POST request for /api/auth/refresh-token',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-23T02:58:30.275Z'
+}
+{
+  message: 'Request body: {"refreshtoken":"9b78d161aebf0bef3eab59e86ced91726974221b18736619222e993bf007b2d76cfe81a69bb8bf25f976affef0a30c658fee8e1d01924236e010a1cd8f46dc60"}',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-23T02:58:30.276Z'
+}
+{
+  message: 'Refresh token generation started',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-23T02:58:30.276Z'
+}
+{
+  message: 'Refresh token not provided',
+  level: 'warn',
+  service: 'user-service',
+  timestamp: '2025-08-23T02:58:30.277Z'
+}
+{
+  message: 'Received GET request for /api/auth/refresh-token',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-23T02:58:39.604Z'
+}
+{
+  message: 'Request body: {"refreshtoken":"9b78d161aebf0bef3eab59e86ced91726974221b18736619222e993bf007b2d76cfe81a69bb8bf25f976affef0a30c658fee8e1d01924236e010a1cd8f46dc60"}',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-23T02:58:39.605Z'
+}
+{
+  message: 'Received POST request for /api/auth/refresh-token',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-23T02:58:43.433Z'
+}
+{
+  message: 'Request body: {"refreshtoken":"9b78d161aebf0bef3eab59e86ced91726974221b18736619222e993bf007b2d76cfe81a69bb8bf25f976affef0a30c658fee8e1d01924236e010a1cd8f46dc60"}',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-23T02:58:43.433Z'
+}
+{
+  message: 'Refresh token generation started',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-23T02:58:43.434Z'
+}
+{
+  message: 'Refresh token not provided',
+  level: 'warn',
+  service: 'user-service',
+  timestamp: '2025-08-23T02:58:43.434Z'
+}
+{
+  message: 'Received POST request for /api/auth/refresh-token',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-23T02:58:49.836Z'
+}
+{
+  message: 'Request body: {"refreshtoken":"9b78d161aebf0bef3eab59e86ced91726974221b18736619222e993bf007b2d76cfe81a69bb8bf25f976affef0a30c658fee8e1d01924236e010a1cd8f46dc60"}',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-23T02:58:49.837Z'
+}
+{
+  message: 'Refresh token generation started',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-23T02:58:49.837Z'
+}
+{
+  message: 'Refresh token not provided',
+  level: 'warn',
+  service: 'user-service',
+  timestamp: '2025-08-23T02:58:49.837Z'
+}
+{
+  message: 'Received POST request for /api/auth/refresh-token',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-23T02:59:06.717Z'
+}
+{
+  message: 'Request body: {"refreshToken":"9b78d161aebf0bef3eab59e86ced91726974221b18736619222e993bf007b2d76cfe81a69bb8bf25f976affef0a30c658fee8e1d01924236e010a1cd8f46dc60"}',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-23T02:59:06.717Z'
+}
+{
+  message: 'Refresh token generation started',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-23T02:59:06.718Z'
+}
+{
+  message: 'Server running on port 3001',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-23T04:39:55.000Z'
+}
+{
+  message: 'MongoDB connected',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-23T04:39:55.837Z'
+}

@@ -13,7 +13,7 @@ const urlVersioning = (version)=>(req, res, next)=>{
     }
 }
 
-const headerVersioning = (vesion) => (req, res, next)=>{
+const headerVersioning = (version) => (req, res, next)=>{
 
     if(req.get('Accept-Version')===version){
         next()
