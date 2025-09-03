@@ -1,0 +1,1 @@
+docker and all is in another repo of microservices https://github.com/Rishu-s08/Social_media_microservices
