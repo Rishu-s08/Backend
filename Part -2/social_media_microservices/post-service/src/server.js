@@ -9,6 +9,7 @@ const {rateLimit} = require('express-rate-limit');
 const logger = require('./utils/logger');
 const routes = require('./routes/post_routes');
 const errorHandler = require('./middleware/error_handler');
+const {connectRabbitMQ} = require('./utils/rabbitmq');
 
 
 const app = express();
@@ -34,7 +35,7 @@ app.use(cors());
 
 const rateLimiterPost = rateLimit({
     windowMs: 15 * 60 * 1000, // 15 minutes
-    max: 10, // Limit each IP to 10 requests per windowMs
+    max: 100, // Limit each IP to 10 requests per windowMs
     legacyHeaders: false, // Disable the `X-RateLimit-*` headers
     standardHeaders: true, // Enable the `RateLimit-*` headers
     handler: (req, res) => {
@@ -56,9 +57,19 @@ app.use('/api/posts', (req, res, next)=>{
 
 app.use(errorHandler);
 
-app.listen(PORT, () => {
-    logger.info(`Server is running on port ${PORT}`);
-});
+async function startServer() {
+    try {
+        await connectRabbitMQ();
+        app.listen(PORT, ()=>{
+            logger.info(`Post Service is running on port ${PORT}`);
+        })
+    } catch (error) {
+        logger.error('Error starting server:', error);
+        process.exit(1);
+    }
+}
+
+startServer();
 
 //unhandled promise rejections
 process.on('unhandledRejection', (reason, error) => {

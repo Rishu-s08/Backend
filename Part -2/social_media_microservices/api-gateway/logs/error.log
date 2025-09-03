@@ -100,3 +100,182 @@
   service: 'api-gateway',
   timestamp: '2025-08-22T03:43:00.104Z'
 }
+{
+  message: 'Proxy error: Invalid value "undefined" for header "x-user-id"',
+  level: 'error',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:14:07.797Z'
+}
+{
+  message: 'Proxy error: Invalid value "undefined" for header "x-user-id"',
+  level: 'error',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:16:06.867Z'
+}
+{
+  message: 'Proxy error: Invalid value "undefined" for header "x-user-id"',
+  level: 'error',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:16:32.769Z'
+}
+{
+  service: 'api-gateway',
+  name: 'JsonWebTokenError',
+  message: 'invalid signature',
+  level: 'error',
+  stack: 'JsonWebTokenError: invalid signature\n' +
+    '    at C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\node_modules\\jsonwebtoken\\verify.js:171:19\n' +
+    '    at getSecret (C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\node_modules\\jsonwebtoken\\verify.js:97:14)\n' +
+    '    at module.exports [as verify] (C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\node_modules\\jsonwebtoken\\verify.js:101:10)\n' +
+    '    at validateToken (C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\src\\middleware\\auth_middleware.js:14:9)\n' +
+    '    at Layer.handleRequest (C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+    '    at trimPrefix (C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\node_modules\\router\\index.js:342:13)\n' +
+    '    at C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\node_modules\\router\\index.js:297:9\n' +
+    '    at processParams (C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\node_modules\\router\\index.js:582:12)\n' +
+    '    at next (C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\node_modules\\router\\index.js:291:5)\n' +
+    '    at C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\src\\server.js:50:5',
+  timestamp: '2025-08-29T03:16:53.944Z'
+}
+{
+  message: 'Proxy error: Invalid value "undefined" for header "x-user-id"',
+  level: 'error',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:16:59.626Z'
+}
+{
+  message: 'Proxy error: Invalid value "undefined" for header "x-user-id"',
+  level: 'error',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:22:00.958Z'
+}
+{
+  service: 'api-gateway',
+  name: 'TokenExpiredError',
+  message: 'jwt expired',
+  expiredAt: 2025-08-29T04:37:18.000Z,
+  level: 'error',
+  stack: 'TokenExpiredError: jwt expired\n' +
+    '    at C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\node_modules\\jsonwebtoken\\verify.js:190:21\n' +
+    '    at getSecret (C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\node_modules\\jsonwebtoken\\verify.js:97:14)\n' +
+    '    at module.exports [as verify] (C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\node_modules\\jsonwebtoken\\verify.js:101:10)\n' +
+    '    at validateToken (C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\src\\middleware\\auth_middleware.js:14:9)\n' +
+    '    at Layer.handleRequest (C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+    '    at trimPrefix (C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\node_modules\\router\\index.js:342:13)\n' +
+    '    at C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\node_modules\\router\\index.js:297:9\n' +
+    '    at processParams (C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\node_modules\\router\\index.js:582:12)\n' +
+    '    at next (C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\node_modules\\router\\index.js:291:5)\n' +
+    '    at C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\src\\server.js:50:5',
+  timestamp: '2025-08-29T06:59:48.642Z'
+}
+{
+  service: 'api-gateway',
+  name: 'TokenExpiredError',
+  message: 'jwt expired',
+  expiredAt: 2025-08-29T04:37:18.000Z,
+  level: 'error',
+  stack: 'TokenExpiredError: jwt expired\n' +
+    '    at C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\node_modules\\jsonwebtoken\\verify.js:190:21\n' +
+    '    at getSecret (C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\node_modules\\jsonwebtoken\\verify.js:97:14)\n' +
+    '    at module.exports [as verify] (C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\node_modules\\jsonwebtoken\\verify.js:101:10)\n' +
+    '    at validateToken (C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\src\\middleware\\auth_middleware.js:14:9)\n' +
+    '    at Layer.handleRequest (C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+    '    at trimPrefix (C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\node_modules\\router\\index.js:342:13)\n' +
+    '    at C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\node_modules\\router\\index.js:297:9\n' +
+    '    at processParams (C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\node_modules\\router\\index.js:582:12)\n' +
+    '    at next (C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\node_modules\\router\\index.js:291:5)\n' +
+    '    at C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\src\\server.js:50:5',
+  timestamp: '2025-08-29T07:06:21.476Z'
+}
+{
+  message: 'Proxy error: ',
+  level: 'error',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T05:48:39.721Z'
+}
+{
+  message: 'Proxy error: ',
+  level: 'error',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T05:49:57.103Z'
+}
+{
+  message: 'Proxy error: ',
+  level: 'error',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T05:50:21.541Z'
+}
+{
+  message: 'Proxy error: ',
+  level: 'error',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T05:50:38.002Z'
+}
+{
+  message: 'Proxy error: ',
+  level: 'error',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T05:51:04.669Z'
+}
+{
+  service: 'api-gateway',
+  name: 'TokenExpiredError',
+  message: 'jwt expired',
+  expiredAt: 2025-09-01T06:30:47.000Z,
+  level: 'error',
+  stack: 'TokenExpiredError: jwt expired\n' +
+    '    at C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\node_modules\\jsonwebtoken\\verify.js:190:21\n' +
+    '    at getSecret (C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\node_modules\\jsonwebtoken\\verify.js:97:14)\n' +
+    '    at module.exports [as verify] (C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\node_modules\\jsonwebtoken\\verify.js:101:10)\n' +
+    '    at validateToken (C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\src\\middleware\\auth_middleware.js:14:9)\n' +
+    '    at Layer.handleRequest (C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+    '    at trimPrefix (C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\node_modules\\router\\index.js:342:13)\n' +
+    '    at C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\node_modules\\router\\index.js:297:9\n' +
+    '    at processParams (C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\node_modules\\router\\index.js:582:12)\n' +
+    '    at next (C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\node_modules\\router\\index.js:291:5)\n' +
+    '    at C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\src\\server.js:50:5',
+  timestamp: '2025-09-01T14:41:22.750Z'
+}
+{
+  message: 'Proxy error: ',
+  level: 'error',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T15:37:56.116Z'
+}
+{
+  service: 'api-gateway',
+  name: 'TokenExpiredError',
+  message: 'jwt expired',
+  expiredAt: 2025-08-29T04:13:55.000Z,
+  level: 'error',
+  stack: 'TokenExpiredError: jwt expired\n' +
+    '    at C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\node_modules\\jsonwebtoken\\verify.js:190:21\n' +
+    '    at getSecret (C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\node_modules\\jsonwebtoken\\verify.js:97:14)\n' +
+    '    at module.exports [as verify] (C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\node_modules\\jsonwebtoken\\verify.js:101:10)\n' +
+    '    at validateToken (C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\src\\middleware\\auth_middleware.js:14:9)\n' +
+    '    at Layer.handleRequest (C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+    '    at trimPrefix (C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\node_modules\\router\\index.js:342:13)\n' +
+    '    at C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\node_modules\\router\\index.js:297:9\n' +
+    '    at processParams (C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\node_modules\\router\\index.js:582:12)\n' +
+    '    at next (C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\node_modules\\router\\index.js:291:5)\n' +
+    '    at C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\src\\server.js:50:5',
+  timestamp: '2025-09-03T03:12:44.242Z'
+}
+{
+  service: 'api-gateway',
+  name: 'TokenExpiredError',
+  message: 'jwt expired',
+  expiredAt: 2025-08-29T04:13:55.000Z,
+  level: 'error',
+  stack: 'TokenExpiredError: jwt expired\n' +
+    '    at C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\node_modules\\jsonwebtoken\\verify.js:190:21\n' +
+    '    at getSecret (C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\node_modules\\jsonwebtoken\\verify.js:97:14)\n' +
+    '    at module.exports [as verify] (C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\node_modules\\jsonwebtoken\\verify.js:101:10)\n' +
+    '    at validateToken (C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\src\\middleware\\auth_middleware.js:14:9)\n' +
+    '    at Layer.handleRequest (C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+    '    at trimPrefix (C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\node_modules\\router\\index.js:342:13)\n' +
+    '    at C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\node_modules\\router\\index.js:297:9\n' +
+    '    at processParams (C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\node_modules\\router\\index.js:582:12)\n' +
+    '    at next (C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\node_modules\\router\\index.js:291:5)\n' +
+    '    at C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\src\\server.js:50:5',
+  timestamp: '2025-09-03T03:18:29.855Z'
+}

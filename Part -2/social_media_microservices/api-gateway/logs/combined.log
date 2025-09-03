@@ -742,3 +742,2990 @@
   service: 'api-gateway',
   timestamp: '2025-08-23T04:39:54.764Z'
 }
+{
+  message: 'API Gateway listening on port 3000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T02:43:21.073Z'
+}
+{
+  message: 'user service URL: http://localhost:3001',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T02:43:21.074Z'
+}
+{
+  message: 'API Gateway listening on port 3000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T02:46:26.575Z'
+}
+{
+  message: 'user service URL: http://localhost:3001',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T02:46:26.577Z'
+}
+{
+  message: 'API Gateway listening on port 3000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T02:46:30.005Z'
+}
+{
+  message: 'user service URL: http://localhost:3001',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T02:46:30.007Z'
+}
+{
+  message: 'Received POST request for /v1/api',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T02:49:31.186Z'
+}
+{
+  message: 'Request body: {"refreshToken":"9b78d161aebf0bef3eab59e86ced91726974221b18736619222e993bf007b2d76cfe81a69bb8bf25f976affef0a30c658fee8e1d01924236e010a1cd8f46dc60"}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T02:49:31.187Z'
+}
+{
+  message: 'Received POST request for /v1/auth/login',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T02:49:53.712Z'
+}
+{
+  message: 'Request body: {"email":"a@gmail.com","password":"asdfasdf"}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T02:49:53.712Z'
+}
+{
+  message: 'Response from user-service: 200',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T02:49:54.219Z'
+}
+{
+  message: 'API Gateway listening on port 3000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T02:53:29.677Z'
+}
+{
+  message: 'user service URL: http://localhost:3001',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T02:53:29.679Z'
+}
+{
+  message: 'API Gateway listening on port 3000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T02:57:29.121Z'
+}
+{
+  message: 'user service URL: http://localhost:3001',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T02:57:29.123Z'
+}
+{
+  message: 'API Gateway listening on port 3000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T02:58:01.763Z'
+}
+{
+  message: 'user service URL: http://localhost:3001',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T02:58:01.765Z'
+}
+{
+  message: 'API Gateway listening on port 3000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:01:58.861Z'
+}
+{
+  message: 'user service URL: http://localhost:3001',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:01:58.862Z'
+}
+{
+  message: 'post service URL: http://localhost:3002',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:01:58.863Z'
+}
+{
+  message: 'Received POST request for /v1/posts/create-post',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:02:46.226Z'
+}
+{
+  message: 'Request body: {"email":"a@gmail.com","password":"asdfasdf"}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:02:46.226Z'
+}
+{
+  message: 'Received POST request for /v1/posts/create',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:03:18.812Z'
+}
+{
+  message: 'Request body: {"email":"a@gmail.com","password":"asdfasdf"}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:03:18.812Z'
+}
+{
+  message: 'Received POST request for /v1/posts/create',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:03:20.996Z'
+}
+{
+  message: 'Request body: {"email":"a@gmail.com","password":"asdfasdf"}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:03:20.996Z'
+}
+{
+  message: 'Received POST request for /v1/posts/create',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:05:30.464Z'
+}
+{
+  message: 'Request body: {}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:05:30.465Z'
+}
+{
+  message: 'Received POST request for /v1/posts/create',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:07:37.394Z'
+}
+{
+  message: 'Request body: {}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:07:37.395Z'
+}
+{
+  message: 'API Gateway listening on port 3000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:09:58.374Z'
+}
+{
+  message: 'user service URL: http://localhost:3001',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:09:58.376Z'
+}
+{
+  message: 'post service URL: http://localhost:3002',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:09:58.376Z'
+}
+{
+  message: 'Received POST request for /v1/posts/create',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:10:00.238Z'
+}
+{
+  message: 'Request body: {}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:10:00.238Z'
+}
+{
+  message: 'No token provided',
+  level: 'warn',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:10:00.239Z'
+}
+{
+  message: 'Received POST request for /v1/auth/login',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:13:55.566Z'
+}
+{
+  message: 'Request body: {"email":"a@gmail.com","password":"asdfasdf"}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:13:55.567Z'
+}
+{
+  message: 'Response from user-service: 200',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:13:55.712Z'
+}
+{
+  message: 'Received POST request for /v1/posts/create',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:14:07.792Z'
+}
+{
+  message: 'Request body: {}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:14:07.793Z'
+}
+{
+  message: 'Proxy error: Invalid value "undefined" for header "x-user-id"',
+  level: 'error',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:14:07.797Z'
+}
+{
+  message: 'Received POST request for /v1/posts/create',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:16:06.866Z'
+}
+{
+  message: 'Request body: {}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:16:06.866Z'
+}
+{
+  message: 'Proxy error: Invalid value "undefined" for header "x-user-id"',
+  level: 'error',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:16:06.867Z'
+}
+{
+  message: 'Received POST request for /v1/posts/create',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:16:32.768Z'
+}
+{
+  message: 'Request body: {}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:16:32.768Z'
+}
+{
+  message: 'Proxy error: Invalid value "undefined" for header "x-user-id"',
+  level: 'error',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:16:32.769Z'
+}
+{
+  message: 'Received POST request for /v1/posts/create',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:16:53.942Z'
+}
+{
+  message: 'Request body: {}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:16:53.943Z'
+}
+{
+  service: 'api-gateway',
+  name: 'JsonWebTokenError',
+  message: 'invalid signature',
+  level: 'error',
+  stack: 'JsonWebTokenError: invalid signature\n' +
+    '    at C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\node_modules\\jsonwebtoken\\verify.js:171:19\n' +
+    '    at getSecret (C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\node_modules\\jsonwebtoken\\verify.js:97:14)\n' +
+    '    at module.exports [as verify] (C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\node_modules\\jsonwebtoken\\verify.js:101:10)\n' +
+    '    at validateToken (C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\src\\middleware\\auth_middleware.js:14:9)\n' +
+    '    at Layer.handleRequest (C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+    '    at trimPrefix (C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\node_modules\\router\\index.js:342:13)\n' +
+    '    at C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\node_modules\\router\\index.js:297:9\n' +
+    '    at processParams (C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\node_modules\\router\\index.js:582:12)\n' +
+    '    at next (C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\node_modules\\router\\index.js:291:5)\n' +
+    '    at C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\src\\server.js:50:5',
+  timestamp: '2025-08-29T03:16:53.944Z'
+}
+{
+  message: 'Received POST request for /v1/posts/create',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:16:59.624Z'
+}
+{
+  message: 'Request body: {}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:16:59.624Z'
+}
+{
+  message: 'Proxy error: Invalid value "undefined" for header "x-user-id"',
+  level: 'error',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:16:59.626Z'
+}
+{
+  message: 'API Gateway listening on port 3000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:21:58.933Z'
+}
+{
+  message: 'user service URL: http://localhost:3001',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:21:58.935Z'
+}
+{
+  message: 'post service URL: http://localhost:3002',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:21:58.935Z'
+}
+{
+  message: 'Received POST request for /v1/posts/create',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:22:00.954Z'
+}
+{
+  message: 'Request body: {}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:22:00.954Z'
+}
+{
+  message: 'Proxy error: Invalid value "undefined" for header "x-user-id"',
+  level: 'error',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:22:00.958Z'
+}
+{
+  message: 'API Gateway listening on port 3000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:24:45.761Z'
+}
+{
+  message: 'user service URL: http://localhost:3001',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:24:45.763Z'
+}
+{
+  message: 'post service URL: http://localhost:3002',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:24:45.763Z'
+}
+{
+  message: 'Received POST request for /v1/posts/create',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:24:47.215Z'
+}
+{
+  message: 'Request body: {}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:24:47.216Z'
+}
+{
+  message: 'Response from post-service: 400',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:24:47.239Z'
+}
+{
+  message: 'Received POST request for /v1/posts/create',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:25:08.648Z'
+}
+{
+  message: 'Request body: {"content":"this is the big content that is needed"}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:25:08.649Z'
+}
+{
+  message: 'Response from post-service: 201',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:25:08.735Z'
+}
+{
+  message: 'Received GET request for /v1/posts/',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:37:14.232Z'
+}
+{
+  message: 'Request body: undefined',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:37:14.233Z'
+}
+{
+  message: 'No token provided',
+  level: 'warn',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:37:14.233Z'
+}
+{
+  message: 'Received POST request for /v1/auth/login',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:37:18.676Z'
+}
+{
+  message: 'Request body: {"email":"a@gmail.com","password":"asdfasdf"}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:37:18.677Z'
+}
+{
+  message: 'Response from user-service: 200',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:37:18.856Z'
+}
+{
+  message: 'Received GET request for /v1/posts/',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:37:35.112Z'
+}
+{
+  message: 'Request body: undefined',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:37:35.112Z'
+}
+{
+  message: 'Response from post-service: 200',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:37:35.280Z'
+}
+{
+  message: 'Received GET request for /v1/posts/',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:37:48.507Z'
+}
+{
+  message: 'Request body: undefined',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:37:48.507Z'
+}
+{
+  message: 'Response from post-service: 200',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:37:48.511Z'
+}
+{
+  message: 'Received GET request for /v1/posts/',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:37:50.749Z'
+}
+{
+  message: 'Request body: undefined',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:37:50.749Z'
+}
+{
+  message: 'Response from post-service: 200',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:37:50.753Z'
+}
+{
+  message: 'Received GET request for /v1/posts/',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:37:52.197Z'
+}
+{
+  message: 'Request body: undefined',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:37:52.197Z'
+}
+{
+  message: 'Response from post-service: 200',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:37:52.202Z'
+}
+{
+  message: 'Received GET request for /v1/posts/',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:46:27.541Z'
+}
+{
+  message: 'Request body: undefined',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:46:27.541Z'
+}
+{
+  message: 'Response from post-service: 429',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:46:27.554Z'
+}
+{
+  message: 'Received GET request for /v1/posts/',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:46:34.223Z'
+}
+{
+  message: 'Request body: undefined',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:46:34.223Z'
+}
+{
+  message: 'Response from post-service: 429',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:46:34.227Z'
+}
+{
+  message: 'Received GET request for /v1/posts/',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:46:50.939Z'
+}
+{
+  message: 'Request body: undefined',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:46:50.940Z'
+}
+{
+  message: 'Response from post-service: 200',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:46:51.068Z'
+}
+{
+  message: 'Received POST request for /v1/posts/create',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:46:57.953Z'
+}
+{
+  message: 'Request body: {"content":"this is the big content that is neededasdfasdfsdaf"}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:46:57.953Z'
+}
+{
+  message: 'Response from post-service: 201',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:46:58.019Z'
+}
+{
+  message: 'Received GET request for /v1/posts/',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:47:01.298Z'
+}
+{
+  message: 'Request body: undefined',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:47:01.298Z'
+}
+{
+  message: 'Response from post-service: 200',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:47:01.302Z'
+}
+{
+  message: 'Received GET request for /v1/posts/',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:47:11.841Z'
+}
+{
+  message: 'Request body: undefined',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:47:11.841Z'
+}
+{
+  message: 'Response from post-service: 200',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:47:11.854Z'
+}
+{
+  message: 'Received POST request for /v1/posts/create',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:47:26.521Z'
+}
+{
+  message: 'Request body: {"content":"this is the big content that is bl;ajh b;laolh bl;ahj"}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:47:26.521Z'
+}
+{
+  message: 'Response from post-service: 201',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:47:26.590Z'
+}
+{
+  message: 'Received GET request for /v1/posts/',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:47:28.665Z'
+}
+{
+  message: 'Request body: undefined',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:47:28.665Z'
+}
+{
+  message: 'Response from post-service: 200',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:47:28.783Z'
+}
+{
+  message: 'Received GET request for /v1/posts/',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:47:33.569Z'
+}
+{
+  message: 'Request body: undefined',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:47:33.570Z'
+}
+{
+  message: 'Response from post-service: 200',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:47:33.573Z'
+}
+{
+  message: 'Received GET request for /v1/posts/',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:47:34.334Z'
+}
+{
+  message: 'Request body: undefined',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:47:34.334Z'
+}
+{
+  message: 'Response from post-service: 200',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:47:34.337Z'
+}
+{
+  message: 'Received GET request for /v1/posts/',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:47:35.047Z'
+}
+{
+  message: 'Request body: undefined',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:47:35.047Z'
+}
+{
+  message: 'Response from post-service: 200',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:47:35.052Z'
+}
+{
+  message: 'Received GET request for /v1/posts/',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:47:35.742Z'
+}
+{
+  message: 'Request body: undefined',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:47:35.742Z'
+}
+{
+  message: 'Response from post-service: 200',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:47:35.746Z'
+}
+{
+  message: 'Received GET request for /v1/posts/',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:47:36.384Z'
+}
+{
+  message: 'Request body: undefined',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:47:36.384Z'
+}
+{
+  message: 'Response from post-service: 200',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:47:36.386Z'
+}
+{
+  message: 'Received POST request for /v1/posts/68b122cecea0a612fce1cbd3',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:56:59.462Z'
+}
+{
+  message: 'Request body: {}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:56:59.462Z'
+}
+{
+  message: 'Response from post-service: 404',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:56:59.474Z'
+}
+{
+  message: 'Received GET request for /v1/posts/68b122cecea0a612fce1cbd3',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:57:03.592Z'
+}
+{
+  message: 'Request body: undefined',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:57:03.593Z'
+}
+{
+  message: 'Response from post-service: 200',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:57:03.649Z'
+}
+{
+  message: 'Received GET request for /v1/posts/68b122cecea0a612fce1cbd3',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:57:09.658Z'
+}
+{
+  message: 'Request body: undefined',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:57:09.658Z'
+}
+{
+  message: 'Response from post-service: 200',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:57:09.661Z'
+}
+{
+  message: 'Received GET request for /v1/posts/68b122cecea0a612fce1cbd3',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:57:10.438Z'
+}
+{
+  message: 'Request body: undefined',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:57:10.439Z'
+}
+{
+  message: 'Response from post-service: 200',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:57:10.442Z'
+}
+{
+  message: 'Received GET request for /v1/posts/68b122cecea0a612fce1cbd3',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:57:11.060Z'
+}
+{
+  message: 'Request body: undefined',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:57:11.060Z'
+}
+{
+  message: 'Response from post-service: 200',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:57:11.063Z'
+}
+{
+  message: 'Received GET request for /v1/posts/68b122cecea0a612fce1cbd3',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:57:11.721Z'
+}
+{
+  message: 'Request body: undefined',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:57:11.721Z'
+}
+{
+  message: 'Response from post-service: 200',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:57:11.724Z'
+}
+{
+  message: 'Received GET request for /v1/posts/68b122cecea0a612fce1cbd3',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:57:12.339Z'
+}
+{
+  message: 'Request body: undefined',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:57:12.339Z'
+}
+{
+  message: 'Response from post-service: 200',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T03:57:12.342Z'
+}
+{
+  message: 'API Gateway listening on port 3000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T04:00:11.320Z'
+}
+{
+  message: 'user service URL: http://localhost:3001',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T04:00:11.321Z'
+}
+{
+  message: 'post service URL: http://localhost:3002',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T04:00:11.322Z'
+}
+{
+  message: 'API Gateway listening on port 3000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T06:58:50.561Z'
+}
+{
+  message: 'user service URL: http://localhost:3001',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T06:58:50.563Z'
+}
+{
+  message: 'post service URL: http://localhost:3002',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T06:58:50.563Z'
+}
+{
+  message: 'Received GET request for /v1/posts/68b122cecea0a612fce1cbd3',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T06:59:48.637Z'
+}
+{
+  message: 'Request body: undefined',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T06:59:48.638Z'
+}
+{
+  service: 'api-gateway',
+  name: 'TokenExpiredError',
+  message: 'jwt expired',
+  expiredAt: 2025-08-29T04:37:18.000Z,
+  level: 'error',
+  stack: 'TokenExpiredError: jwt expired\n' +
+    '    at C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\node_modules\\jsonwebtoken\\verify.js:190:21\n' +
+    '    at getSecret (C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\node_modules\\jsonwebtoken\\verify.js:97:14)\n' +
+    '    at module.exports [as verify] (C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\node_modules\\jsonwebtoken\\verify.js:101:10)\n' +
+    '    at validateToken (C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\src\\middleware\\auth_middleware.js:14:9)\n' +
+    '    at Layer.handleRequest (C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+    '    at trimPrefix (C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\node_modules\\router\\index.js:342:13)\n' +
+    '    at C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\node_modules\\router\\index.js:297:9\n' +
+    '    at processParams (C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\node_modules\\router\\index.js:582:12)\n' +
+    '    at next (C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\node_modules\\router\\index.js:291:5)\n' +
+    '    at C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\src\\server.js:50:5',
+  timestamp: '2025-08-29T06:59:48.642Z'
+}
+{
+  message: 'Received POST request for /v1/auth/login',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T06:59:52.582Z'
+}
+{
+  message: 'Request body: {"email":"a@gmail.com","password":"asdfasdf"}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T06:59:52.582Z'
+}
+{
+  message: 'Response from user-service: 200',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T06:59:52.888Z'
+}
+{
+  message: 'Received DELETE request for /v1/posts/delete/',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T07:05:58.662Z'
+}
+{
+  message: 'Request body: undefined',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T07:05:58.662Z'
+}
+{
+  message: 'No token provided',
+  level: 'warn',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T07:05:58.663Z'
+}
+{
+  message: 'Received DELETE request for /v1/posts/delete/',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T07:06:06.795Z'
+}
+{
+  message: 'Request body: undefined',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T07:06:06.795Z'
+}
+{
+  message: 'Response from post-service: 404',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T07:06:06.813Z'
+}
+{
+  message: 'Received GET request for /v1/posts/68b122cecea0a612fce1cbd3',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T07:06:21.475Z'
+}
+{
+  message: 'Request body: undefined',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T07:06:21.475Z'
+}
+{
+  service: 'api-gateway',
+  name: 'TokenExpiredError',
+  message: 'jwt expired',
+  expiredAt: 2025-08-29T04:37:18.000Z,
+  level: 'error',
+  stack: 'TokenExpiredError: jwt expired\n' +
+    '    at C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\node_modules\\jsonwebtoken\\verify.js:190:21\n' +
+    '    at getSecret (C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\node_modules\\jsonwebtoken\\verify.js:97:14)\n' +
+    '    at module.exports [as verify] (C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\node_modules\\jsonwebtoken\\verify.js:101:10)\n' +
+    '    at validateToken (C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\src\\middleware\\auth_middleware.js:14:9)\n' +
+    '    at Layer.handleRequest (C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+    '    at trimPrefix (C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\node_modules\\router\\index.js:342:13)\n' +
+    '    at C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\node_modules\\router\\index.js:297:9\n' +
+    '    at processParams (C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\node_modules\\router\\index.js:582:12)\n' +
+    '    at next (C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\node_modules\\router\\index.js:291:5)\n' +
+    '    at C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\src\\server.js:50:5',
+  timestamp: '2025-08-29T07:06:21.476Z'
+}
+{
+  message: 'Received DELETE request for /v1/posts/delete/68b122cecea0a612fce1cbd3',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T07:06:26.431Z'
+}
+{
+  message: 'Request body: undefined',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T07:06:26.431Z'
+}
+{
+  message: 'Response from post-service: 204',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T07:06:26.507Z'
+}
+{
+  message: 'Received DELETE request for /v1/posts/delete/68b122cecea0a612fce1cbd3',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T07:07:20.177Z'
+}
+{
+  message: 'Request body: undefined',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T07:07:20.178Z'
+}
+{
+  message: 'Response from post-service: 404',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T07:07:20.235Z'
+}
+{
+  message: 'Received GET request for /v1/posts/',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T07:07:56.841Z'
+}
+{
+  message: 'Request body: undefined',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T07:07:56.842Z'
+}
+{
+  message: 'Response from post-service: 200',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T07:07:56.946Z'
+}
+{
+  message: 'Received POST request for /v1/posts/create',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T07:08:18.076Z'
+}
+{
+  message: 'Request body: {"content":"newww dsflksadjf"}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T07:08:18.076Z'
+}
+{
+  message: 'Response from post-service: 201',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T07:08:18.145Z'
+}
+{
+  message: 'Received GET request for /v1/posts/',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T07:08:38.169Z'
+}
+{
+  message: 'Request body: undefined',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T07:08:38.170Z'
+}
+{
+  message: 'Response from post-service: 200',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T07:08:38.325Z'
+}
+{
+  message: 'Received DELETE request for /v1/posts/delete/68b122b118a0f891439122c2',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T07:09:02.998Z'
+}
+{
+  message: 'Request body: undefined',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T07:09:02.998Z'
+}
+{
+  message: 'Response from post-service: 204',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T07:09:03.062Z'
+}
+{
+  message: 'Received GET request for /v1/posts/',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T07:09:07.334Z'
+}
+{
+  message: 'Request body: undefined',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T07:09:07.334Z'
+}
+{
+  message: 'Response from post-service: 200',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T07:09:07.430Z'
+}
+{
+  message: 'Received GET request for /v1/posts/',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T07:09:11.450Z'
+}
+{
+  message: 'Request body: undefined',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T07:09:11.451Z'
+}
+{
+  message: 'Response from post-service: 200',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T07:09:11.455Z'
+}
+{
+  message: 'Received DELETE request for /v1/posts/delete/68b11d946815ca4ab56b60f3',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T07:18:10.461Z'
+}
+{
+  message: 'Request body: undefined',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T07:18:10.461Z'
+}
+{
+  message: 'Response from post-service: 204',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T07:18:10.548Z'
+}
+{
+  message: 'Received GET request for /v1/posts/',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T07:19:04.558Z'
+}
+{
+  message: 'Request body: undefined',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T07:19:04.559Z'
+}
+{
+  message: 'Response from post-service: 200',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T07:19:04.660Z'
+}
+{
+  message: 'Received DELETE request for /v1/posts/delete/68b151e21dff5a60649f2254',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T07:19:53.985Z'
+}
+{
+  message: 'Request body: undefined',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T07:19:53.985Z'
+}
+{
+  message: 'Response from post-service: 204',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T07:19:54.062Z'
+}
+{
+  message: 'Received POST request for /v1/posts/create',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T07:20:31.574Z'
+}
+{
+  message: 'Request body: {"content":"newww dsflksadjf"}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T07:20:31.574Z'
+}
+{
+  message: 'Response from post-service: 201',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T07:20:31.645Z'
+}
+{
+  message: 'Received POST request for /v1/posts/create',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T07:20:32.274Z'
+}
+{
+  message: 'Request body: {"content":"newww dsflksadjf"}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T07:20:32.274Z'
+}
+{
+  message: 'Response from post-service: 201',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T07:20:32.327Z'
+}
+{
+  message: 'Received POST request for /v1/posts/create',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T07:20:32.908Z'
+}
+{
+  message: 'Request body: {"content":"newww dsflksadjf"}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T07:20:32.908Z'
+}
+{
+  message: 'Response from post-service: 201',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T07:20:32.961Z'
+}
+{
+  message: 'Received POST request for /v1/posts/create',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T07:20:33.507Z'
+}
+{
+  message: 'Request body: {"content":"newww dsflksadjf"}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T07:20:33.507Z'
+}
+{
+  message: 'Response from post-service: 201',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T07:20:33.571Z'
+}
+{
+  message: 'Received POST request for /v1/posts/create',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T07:20:34.040Z'
+}
+{
+  message: 'Request body: {"content":"newww dsflksadjf"}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T07:20:34.041Z'
+}
+{
+  message: 'Response from post-service: 201',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T07:20:34.095Z'
+}
+{
+  message: 'Received GET request for /v1/posts/',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T07:20:36.633Z'
+}
+{
+  message: 'Request body: undefined',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T07:20:36.633Z'
+}
+{
+  message: 'Response from post-service: 200',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T07:20:36.726Z'
+}
+{
+  message: 'Received DELETE request for /v1/posts/delete/68b154c09396729d82f94f78',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T07:20:47.206Z'
+}
+{
+  message: 'Request body: undefined',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T07:20:47.206Z'
+}
+{
+  message: 'Response from post-service: 200',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T07:20:47.260Z'
+}
+{
+  message: 'Received DELETE request for /v1/posts/delete/68b154c29396729d82f94f7e',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T07:21:00.105Z'
+}
+{
+  message: 'Request body: undefined',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T07:21:00.105Z'
+}
+{
+  message: 'Response from post-service: 200',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T07:21:00.175Z'
+}
+{
+  message: 'Received GET request for /v1/posts/',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T07:21:07.534Z'
+}
+{
+  message: 'Request body: undefined',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T07:21:07.535Z'
+}
+{
+  message: 'Response from post-service: 200',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T07:21:07.636Z'
+}
+{
+  message: 'Received GET request for /v1/posts/',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T07:21:08.467Z'
+}
+{
+  message: 'Request body: undefined',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T07:21:08.467Z'
+}
+{
+  message: 'Response from post-service: 200',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-08-29T07:21:08.472Z'
+}
+{
+  message: 'API Gateway listening on port 3000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T05:16:09.118Z'
+}
+{
+  message: 'user service URL: http://localhost:3001',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T05:16:09.120Z'
+}
+{
+  message: 'post service URL: http://localhost:3002',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T05:16:09.120Z'
+}
+{
+  message: 'API Gateway listening on port 3000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T05:23:27.369Z'
+}
+{
+  message: 'user service URL: http://localhost:3001',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T05:23:27.370Z'
+}
+{
+  message: 'post service URL: http://localhost:3002',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T05:23:27.371Z'
+}
+{
+  message: 'API Gateway listening on port 3000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T05:23:44.202Z'
+}
+{
+  message: 'user service URL: http://localhost:3001',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T05:23:44.204Z'
+}
+{
+  message: 'post service URL: http://localhost:3002',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T05:23:44.204Z'
+}
+{
+  message: 'media service URL: http://localhost:3003',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T05:23:44.205Z'
+}
+{
+  message: 'Received POST request for /v1/auth/login',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T05:30:47.186Z'
+}
+{
+  message: 'Request body: {"email":"a@gmail.com","password":"asdfasdf"}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T05:30:47.187Z'
+}
+{
+  message: 'Response from user-service: 200',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T05:30:47.368Z'
+}
+{
+  message: 'Received POST request for /v1/media/upload',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T05:32:49.464Z'
+}
+{
+  message: 'Request body: undefined',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T05:32:49.464Z'
+}
+{
+  message: 'No token provided',
+  level: 'warn',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T05:32:49.465Z'
+}
+{
+  message: 'Received POST request for /v1/media/upload',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T05:32:57.851Z'
+}
+{
+  message: 'Request body: undefined',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T05:32:57.851Z'
+}
+{
+  message: 'Response from media-service: 500',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T05:32:57.861Z'
+}
+{
+  message: 'Received POST request for /v1/media/upload',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T05:33:30.974Z'
+}
+{
+  message: 'Request body: undefined',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T05:33:30.974Z'
+}
+{
+  message: 'Response from media-service: 500',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T05:33:30.979Z'
+}
+{
+  message: 'Received POST request for /v1/media/upload',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T05:34:55.286Z'
+}
+{
+  message: 'Request body: undefined',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T05:34:55.287Z'
+}
+{
+  message: 'Response from media-service: 500',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T05:34:55.293Z'
+}
+{
+  message: 'Received POST request for /v1/media/upload',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T05:35:20.646Z'
+}
+{
+  message: 'Request body: undefined',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T05:35:20.646Z'
+}
+{
+  message: 'Response from media-service: 429',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T05:35:20.654Z'
+}
+{
+  message: 'Received POST request for /v1/media/upload',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T05:35:30.599Z'
+}
+{
+  message: 'Request body: undefined',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T05:35:30.599Z'
+}
+{
+  message: 'Response from media-service: 500',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T05:35:30.608Z'
+}
+{
+  message: 'Received POST request for /v1/media/upload',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T05:37:48.284Z'
+}
+{
+  message: 'Request body: undefined',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T05:37:48.284Z'
+}
+{
+  message: 'Response from media-service: 500',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T05:37:48.288Z'
+}
+{
+  message: 'Received POST request for /v1/media/upload',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T05:48:39.718Z'
+}
+{
+  message: 'Request body: undefined',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T05:48:39.718Z'
+}
+{
+  message: 'Proxy error: ',
+  level: 'error',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T05:48:39.721Z'
+}
+{
+  message: 'API Gateway listening on port 3000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T05:49:51.934Z'
+}
+{
+  message: 'user service URL: http://localhost:3001',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T05:49:51.936Z'
+}
+{
+  message: 'post service URL: http://localhost:3002',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T05:49:51.936Z'
+}
+{
+  message: 'media service URL: http://localhost:3003',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T05:49:51.937Z'
+}
+{
+  message: 'Received POST request for /v1/media/upload',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T05:49:57.097Z'
+}
+{
+  message: 'Request body: undefined',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T05:49:57.098Z'
+}
+{
+  message: 'Proxy error: ',
+  level: 'error',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T05:49:57.103Z'
+}
+{
+  message: 'Received POST request for /v1/media/upload',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T05:50:21.538Z'
+}
+{
+  message: 'Request body: undefined',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T05:50:21.539Z'
+}
+{
+  message: 'Proxy error: ',
+  level: 'error',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T05:50:21.541Z'
+}
+{
+  message: 'Received POST request for /v1/media/upload',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T05:50:38.000Z'
+}
+{
+  message: 'Request body: undefined',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T05:50:38.000Z'
+}
+{
+  message: 'Proxy error: ',
+  level: 'error',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T05:50:38.002Z'
+}
+{
+  message: 'Received POST request for /v1/media/upload',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T05:51:04.667Z'
+}
+{
+  message: 'Request body: undefined',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T05:51:04.667Z'
+}
+{
+  message: 'Proxy error: ',
+  level: 'error',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T05:51:04.669Z'
+}
+{
+  message: 'Received POST request for /v1/media/upload',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T05:53:52.980Z'
+}
+{
+  message: 'Request body: undefined',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T05:53:52.981Z'
+}
+{
+  message: 'Response from media-service: 500',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T05:53:55.299Z'
+}
+{
+  message: 'Received POST request for /v1/media/upload',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T05:56:25.972Z'
+}
+{
+  message: 'Request body: undefined',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T05:56:25.972Z'
+}
+{
+  message: 'Response from media-service: 500',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T05:56:28.213Z'
+}
+{
+  message: 'Received POST request for /v1/media/upload',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T05:58:59.185Z'
+}
+{
+  message: 'Request body: undefined',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T05:58:59.185Z'
+}
+{
+  message: 'Response from media-service: 500',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T05:59:01.702Z'
+}
+{
+  message: 'Received POST request for /v1/media/upload',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T06:01:18.456Z'
+}
+{
+  message: 'Request body: undefined',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T06:01:18.456Z'
+}
+{
+  message: 'Response from media-service: 500',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T06:01:21.237Z'
+}
+{
+  message: 'Received POST request for /v1/media/upload',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T06:02:55.294Z'
+}
+{
+  message: 'Request body: undefined',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T06:02:55.294Z'
+}
+{
+  message: 'Response from media-service: 201',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T06:02:57.976Z'
+}
+{
+  message: 'API Gateway listening on port 3000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T06:19:43.385Z'
+}
+{
+  message: 'user service URL: http://localhost:3001',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T06:19:43.387Z'
+}
+{
+  message: 'post service URL: http://localhost:3002',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T06:19:43.387Z'
+}
+{
+  message: 'media service URL: http://localhost:3003',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T06:19:43.387Z'
+}
+{
+  message: 'API Gateway listening on port 3000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T14:40:09.574Z'
+}
+{
+  message: 'user service URL: http://localhost:3001',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T14:40:09.575Z'
+}
+{
+  message: 'post service URL: http://localhost:3002',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T14:40:09.576Z'
+}
+{
+  message: 'media service URL: http://localhost:3003',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T14:40:09.576Z'
+}
+{
+  message: 'Received POST request for /v1/media/upload',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T14:41:22.748Z'
+}
+{
+  message: 'Request body: undefined',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T14:41:22.748Z'
+}
+{
+  service: 'api-gateway',
+  name: 'TokenExpiredError',
+  message: 'jwt expired',
+  expiredAt: 2025-09-01T06:30:47.000Z,
+  level: 'error',
+  stack: 'TokenExpiredError: jwt expired\n' +
+    '    at C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\node_modules\\jsonwebtoken\\verify.js:190:21\n' +
+    '    at getSecret (C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\node_modules\\jsonwebtoken\\verify.js:97:14)\n' +
+    '    at module.exports [as verify] (C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\node_modules\\jsonwebtoken\\verify.js:101:10)\n' +
+    '    at validateToken (C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\src\\middleware\\auth_middleware.js:14:9)\n' +
+    '    at Layer.handleRequest (C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+    '    at trimPrefix (C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\node_modules\\router\\index.js:342:13)\n' +
+    '    at C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\node_modules\\router\\index.js:297:9\n' +
+    '    at processParams (C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\node_modules\\router\\index.js:582:12)\n' +
+    '    at next (C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\node_modules\\router\\index.js:291:5)\n' +
+    '    at C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\src\\server.js:50:5',
+  timestamp: '2025-09-01T14:41:22.750Z'
+}
+{
+  message: 'Received POST request for /v1/auth/login',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T14:41:28.662Z'
+}
+{
+  message: 'Request body: {"email":"a@gmail.com","password":"asdfasdf"}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T14:41:28.662Z'
+}
+{
+  message: 'Response from user-service: 200',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T14:41:29.124Z'
+}
+{
+  message: 'Received POST request for /v1/media/upload',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T14:41:42.108Z'
+}
+{
+  message: 'Request body: undefined',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T14:41:42.108Z'
+}
+{
+  message: 'Response from media-service: 201',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T14:41:49.167Z'
+}
+{
+  message: 'Received POST request for /v1/posts/create',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T14:42:44.947Z'
+}
+{
+  message: 'Request body: {"content":"newww dsflksadjf","mediaIds":["68b5b0ade281ac1f3561bed0"]}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T14:42:44.948Z'
+}
+{
+  message: 'Response from post-service: 400',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T14:42:44.967Z'
+}
+{
+  message: 'Received POST request for /v1/posts/create',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T14:53:35.974Z'
+}
+{
+  message: 'Request body: {"content":"newww dsflksadjf","mediaIds":["68b5b0ade281ac1f3561bed0"]}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T14:53:35.974Z'
+}
+{
+  message: 'Response from post-service: 400',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T14:53:35.991Z'
+}
+{
+  message: 'Received POST request for /v1/posts/create',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T14:54:04.523Z'
+}
+{
+  message: 'Request body: {"content":"newww dsflksadjf","mediaIds":["68b5b0ade281ac1f3561bed0"]}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T14:54:04.523Z'
+}
+{
+  message: 'Response from post-service: 201',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T14:54:04.823Z'
+}
+{
+  message: 'Received POST request for /v1/auth/login',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T15:37:40.212Z'
+}
+{
+  message: 'Request body: {"email":"a@gmail.com","password":"asdfasdf"}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T15:37:40.212Z'
+}
+{
+  message: 'Response from user-service: 200',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T15:37:40.547Z'
+}
+{
+  message: 'Received POST request for /v1/media/get',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T15:37:56.114Z'
+}
+{
+  message: 'Request body: {"content":"this is the big content that is bl;ajh b;laolh bl;ahj"}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T15:37:56.114Z'
+}
+{
+  message: 'Proxy error: ',
+  level: 'error',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T15:37:56.116Z'
+}
+{
+  message: 'Received POST request for /v1/media/get',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T15:38:41.274Z'
+}
+{
+  message: 'Request body: {"content":"this is the big content that is bl;ajh b;laolh bl;ahj"}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T15:38:41.274Z'
+}
+{
+  message: 'Response from media-service: 404',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T15:38:41.290Z'
+}
+{
+  message: 'Received GET request for /v1/media/get',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T15:38:45.028Z'
+}
+{
+  message: 'Request body: {"content":"this is the big content that is bl;ajh b;laolh bl;ahj"}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T15:38:45.029Z'
+}
+{
+  message: 'Response from media-service: 200',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T15:38:45.302Z'
+}
+{
+  message: 'API Gateway listening on port 3000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T16:22:55.260Z'
+}
+{
+  message: 'user service URL: http://localhost:3001',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T16:22:55.262Z'
+}
+{
+  message: 'post service URL: http://localhost:3002',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T16:22:55.262Z'
+}
+{
+  message: 'media service URL: http://localhost:3003',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-01T16:22:55.262Z'
+}
+{
+  message: 'API Gateway listening on port 3000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-02T03:14:43.838Z'
+}
+{
+  message: 'user service URL: http://localhost:3001',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-02T03:14:43.840Z'
+}
+{
+  message: 'post service URL: http://localhost:3002',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-02T03:14:43.840Z'
+}
+{
+  message: 'media service URL: http://localhost:3003',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-02T03:14:43.840Z'
+}
+{
+  message: 'Received POST request for /v1/auth/login',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-02T03:26:15.327Z'
+}
+{
+  message: 'Request body: {"email":"a@gmail.com","password":"asdfasdf"}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-02T03:26:15.327Z'
+}
+{
+  message: 'Response from user-service: 200',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-02T03:26:15.546Z'
+}
+{
+  message: 'Received POST request for /v1/posts/create',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-02T03:26:34.544Z'
+}
+{
+  message: 'Request body: {"content":"dfasdfsadfasdf asdfsadfsdfsdf","mediaIds":["68b5b0ade281ac1f3561bed0"]}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-02T03:26:34.545Z'
+}
+{
+  message: 'Response from post-service: 201',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-02T03:26:34.637Z'
+}
+{
+  message: 'Received DELETE request for /v1/posts/delete/68b663eaf8ab37ed9bc42628',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-02T03:26:59.807Z'
+}
+{
+  message: 'Request body: undefined',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-02T03:26:59.807Z'
+}
+{
+  message: 'Response from post-service: 200',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-02T03:26:59.875Z'
+}
+{
+  message: 'Received POST request for /v1/posts/create',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-02T03:27:45.053Z'
+}
+{
+  message: 'Request body: {"content":"dfasdfsadfasdf asdfsadfsdfsdf","mediaIds":["68b5b0ade281ac1f3561bed0"]}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-02T03:27:45.053Z'
+}
+{
+  message: 'Response from post-service: 201',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-02T03:27:45.111Z'
+}
+{
+  message: 'Received DELETE request for /v1/posts/delete/68b66431f8ab37ed9bc4262b',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-02T03:27:50.557Z'
+}
+{
+  message: 'Request body: undefined',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-02T03:27:50.557Z'
+}
+{
+  message: 'Response from post-service: 200',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-02T03:27:50.611Z'
+}
+{
+  message: 'Received POST request for /v1/posts/create',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-02T03:28:12.991Z'
+}
+{
+  message: 'Request body: {"content":"dfasdfsadfasdf asdfsadfsdfsdf","mediaIds":["68b5b0ade281ac1f3561bed0"]}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-02T03:28:12.991Z'
+}
+{
+  message: 'Response from post-service: 201',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-02T03:28:13.050Z'
+}
+{
+  message: 'Received DELETE request for /v1/posts/delete/68b6644cf8ab37ed9bc4262e',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-02T03:28:19.304Z'
+}
+{
+  message: 'Request body: undefined',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-02T03:28:19.304Z'
+}
+{
+  message: 'Response from post-service: 200',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-02T03:28:19.370Z'
+}
+{
+  message: 'Received POST request for /v1/auth/login',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-02T03:44:08.860Z'
+}
+{
+  message: 'Request body: {"email":"a@gmail.com","password":"asdfasdf"}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-02T03:44:08.860Z'
+}
+{
+  message: 'Response from user-service: 200',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-02T03:44:09.030Z'
+}
+{
+  message: 'Received GET request for /v1/media/get',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-02T03:44:26.256Z'
+}
+{
+  message: 'Request body: {"content":"this is the big content that is bl;ajh b;laolh bl;ahj"}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-02T03:44:26.256Z'
+}
+{
+  message: 'Response from media-service: 200',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-02T03:44:26.331Z'
+}
+{
+  message: 'Received POST request for /v1/posts/create',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-02T03:44:52.864Z'
+}
+{
+  message: 'Request body: {"content":"dfasdfsadfasdf asdfsadfsdfsdf","mediaIds":["68b5b0ade281ac1f3561bed0"]}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-02T03:44:52.864Z'
+}
+{
+  message: 'Response from post-service: 201',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-02T03:44:52.942Z'
+}
+{
+  message: 'Received GET request for /v1/posts/',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-02T03:45:00.345Z'
+}
+{
+  message: 'Request body: undefined',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-02T03:45:00.345Z'
+}
+{
+  message: 'Response from post-service: 200',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-02T03:45:00.448Z'
+}
+{
+  message: 'Received DELETE request for /v1/posts/delete/68b668346e7e526a82d74f1a',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-02T03:45:30.521Z'
+}
+{
+  message: 'Request body: undefined',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-02T03:45:30.522Z'
+}
+{
+  message: 'Response from post-service: 200',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-02T03:45:30.592Z'
+}
+{
+  message: 'Received GET request for /v1/media/get',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-02T03:45:39.363Z'
+}
+{
+  message: 'Request body: {"content":"this is the big content that is bl;ajh b;laolh bl;ahj"}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-02T03:45:39.363Z'
+}
+{
+  message: 'Response from media-service: 200',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-02T03:45:39.417Z'
+}
+{
+  message: 'API Gateway listening on port 3000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-02T04:04:18.068Z'
+}
+{
+  message: 'user service URL: http://localhost:3001',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-02T04:04:18.069Z'
+}
+{
+  message: 'post service URL: http://localhost:3002',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-02T04:04:18.070Z'
+}
+{
+  message: 'media service URL: http://localhost:3003',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-02T04:04:18.070Z'
+}
+{
+  message: 'API Gateway listening on port 3000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-03T02:50:32.970Z'
+}
+{
+  message: 'user service URL: http://localhost:3001',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-03T02:50:32.971Z'
+}
+{
+  message: 'post service URL: http://localhost:3002',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-03T02:50:32.972Z'
+}
+{
+  message: 'media service URL: http://localhost:3003',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-03T02:50:32.972Z'
+}
+{
+  message: 'search service URL: http://localhost:3004',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-03T02:50:32.972Z'
+}
+{
+  message: 'Received POST request for /v1/auth/login',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-03T02:53:59.296Z'
+}
+{
+  message: 'Request body: {"email":"a@gmail.com","password":"asdfasdf"}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-03T02:53:59.296Z'
+}
+{
+  message: 'Response from user-service: 200',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-03T02:53:59.554Z'
+}
+{
+  message: 'Received POST request for /v1/posts/create',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-03T02:54:21.682Z'
+}
+{
+  message: 'Request body: {"content":"dfasdfsadfasdf asdfsadfsdfsdf","mediaIds":[]}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-03T02:54:21.682Z'
+}
+{
+  message: 'Response from post-service: 201',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-03T02:54:21.782Z'
+}
+{
+  message: 'Received POST request for /v1/posts/create',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-03T03:00:17.533Z'
+}
+{
+  message: 'Request body: {"content":"dfasdfsadfasdf asdfsadfsdfsdf","mediaIds":[]}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-03T03:00:17.534Z'
+}
+{
+  message: 'Response from post-service: 201',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-03T03:00:17.591Z'
+}
+{
+  message: 'Received POST request for /v1/posts/create',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-03T03:02:35.038Z'
+}
+{
+  message: 'Request body: {"content":"dfasdfsadfasdf asdfsadfsdfsdf","mediaIds":[]}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-03T03:02:35.038Z'
+}
+{
+  message: 'Response from post-service: 201',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-03T03:02:35.092Z'
+}
+{
+  message: 'Received POST request for /v1/posts/create',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-03T03:06:16.459Z'
+}
+{
+  message: 'Request body: {"content":"dfasdfsadfasdf asdfsadfsdfsdf","mediaIds":[]}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-03T03:06:16.459Z'
+}
+{
+  message: 'Response from post-service: 201',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-03T03:06:16.527Z'
+}
+{
+  message: 'Received DELETE request for /v1/posts/delete/68b7b0a8c5fd65624e6a1d75',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-03T03:11:36.989Z'
+}
+{
+  message: 'Request body: undefined',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-03T03:11:36.989Z'
+}
+{
+  message: 'Response from post-service: 200',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-03T03:11:37.055Z'
+}
+{
+  message: 'Received GET request for /v1/search/posts?query=asdf',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-03T03:12:44.240Z'
+}
+{
+  message: 'Request body: {"content":"this is the big content that is bl;ajh b;laolh bl;ahj"}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-03T03:12:44.240Z'
+}
+{
+  service: 'api-gateway',
+  name: 'TokenExpiredError',
+  message: 'jwt expired',
+  expiredAt: 2025-08-29T04:13:55.000Z,
+  level: 'error',
+  stack: 'TokenExpiredError: jwt expired\n' +
+    '    at C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\node_modules\\jsonwebtoken\\verify.js:190:21\n' +
+    '    at getSecret (C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\node_modules\\jsonwebtoken\\verify.js:97:14)\n' +
+    '    at module.exports [as verify] (C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\node_modules\\jsonwebtoken\\verify.js:101:10)\n' +
+    '    at validateToken (C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\src\\middleware\\auth_middleware.js:14:9)\n' +
+    '    at Layer.handleRequest (C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+    '    at trimPrefix (C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\node_modules\\router\\index.js:342:13)\n' +
+    '    at C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\node_modules\\router\\index.js:297:9\n' +
+    '    at processParams (C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\node_modules\\router\\index.js:582:12)\n' +
+    '    at next (C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\node_modules\\router\\index.js:291:5)\n' +
+    '    at C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\src\\server.js:50:5',
+  timestamp: '2025-09-03T03:12:44.242Z'
+}
+{
+  message: 'Received GET request for /v1/search/posts?query=asdf',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-03T03:18:29.854Z'
+}
+{
+  message: 'Request body: {"content":"this is the big content that is bl;ajh b;laolh bl;ahj"}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-03T03:18:29.854Z'
+}
+{
+  service: 'api-gateway',
+  name: 'TokenExpiredError',
+  message: 'jwt expired',
+  expiredAt: 2025-08-29T04:13:55.000Z,
+  level: 'error',
+  stack: 'TokenExpiredError: jwt expired\n' +
+    '    at C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\node_modules\\jsonwebtoken\\verify.js:190:21\n' +
+    '    at getSecret (C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\node_modules\\jsonwebtoken\\verify.js:97:14)\n' +
+    '    at module.exports [as verify] (C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\node_modules\\jsonwebtoken\\verify.js:101:10)\n' +
+    '    at validateToken (C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\src\\middleware\\auth_middleware.js:14:9)\n' +
+    '    at Layer.handleRequest (C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+    '    at trimPrefix (C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\node_modules\\router\\index.js:342:13)\n' +
+    '    at C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\node_modules\\router\\index.js:297:9\n' +
+    '    at processParams (C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\node_modules\\router\\index.js:582:12)\n' +
+    '    at next (C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\node_modules\\router\\index.js:291:5)\n' +
+    '    at C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\api-gateway\\src\\server.js:50:5',
+  timestamp: '2025-09-03T03:18:29.855Z'
+}
+{
+  message: 'Received POST request for /v1/auth/login',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-03T03:18:34.010Z'
+}
+{
+  message: 'Request body: {"email":"a@gmail.com","password":"asdfasdf"}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-03T03:18:34.010Z'
+}
+{
+  message: 'Response from user-service: 200',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-03T03:18:34.152Z'
+}
+{
+  message: 'Received GET request for /v1/search/posts?query=asdf',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-03T03:18:43.099Z'
+}
+{
+  message: 'Request body: {"content":"this is the big content that is bl;ajh b;laolh bl;ahj"}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-03T03:18:43.099Z'
+}
+{
+  message: 'Response from search-service: 500',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-03T03:18:43.108Z'
+}
+{
+  message: 'Received GET request for /v1/search/posts?query=asdf',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-03T03:19:22.615Z'
+}
+{
+  message: 'Request body: {"content":"this is the big content that is bl;ajh b;laolh bl;ahj"}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-03T03:19:22.616Z'
+}
+{
+  message: 'Response from search-service: 200',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-03T03:19:22.682Z'
+}
+{
+  message: 'Received POST request for /v1/posts/create',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-03T03:19:45.334Z'
+}
+{
+  message: 'Request body: {"content":"first","mediaIds":[]}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-03T03:19:45.334Z'
+}
+{
+  message: 'Response from post-service: 400',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-03T03:19:45.340Z'
+}
+{
+  message: 'Received POST request for /v1/posts/create',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-03T03:19:50.705Z'
+}
+{
+  message: 'Request body: {"content":"firstttt","mediaIds":[]}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-03T03:19:50.705Z'
+}
+{
+  message: 'Response from post-service: 400',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-03T03:19:50.712Z'
+}
+{
+  message: 'Received POST request for /v1/posts/create',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-03T03:19:53.953Z'
+}
+{
+  message: 'Request body: {"content":"firsttttttt","mediaIds":[]}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-03T03:19:53.954Z'
+}
+{
+  message: 'Response from post-service: 201',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-03T03:19:54.017Z'
+}
+{
+  message: 'Received POST request for /v1/posts/create',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-03T03:20:04.225Z'
+}
+{
+  message: 'Request body: {"content":"second second","mediaIds":[]}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-03T03:20:04.226Z'
+}
+{
+  message: 'Response from post-service: 201',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-03T03:20:04.379Z'
+}
+{
+  message: 'Received POST request for /v1/posts/create',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-03T03:20:11.728Z'
+}
+{
+  message: 'Request body: {"content":"third second","mediaIds":[]}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-03T03:20:11.729Z'
+}
+{
+  message: 'Response from post-service: 201',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-03T03:20:11.788Z'
+}
+{
+  message: 'Received POST request for /v1/posts/create',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-03T03:20:17.851Z'
+}
+{
+  message: 'Request body: {"content":"third fourth","mediaIds":[]}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-03T03:20:17.852Z'
+}
+{
+  message: 'Response from post-service: 201',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-03T03:20:18.559Z'
+}
+{
+  message: 'Received POST request for /v1/posts/create',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-03T03:20:26.765Z'
+}
+{
+  message: 'Request body: {"content":"five fourth","mediaIds":[]}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-03T03:20:26.765Z'
+}
+{
+  message: 'Response from post-service: 201',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-03T03:20:26.825Z'
+}
+{
+  message: 'Received POST request for /v1/posts/create',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-03T03:20:39.944Z'
+}
+{
+  message: 'Request body: {"content":"five four","mediaIds":[]}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-03T03:20:39.944Z'
+}
+{
+  message: 'Response from post-service: 400',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-03T03:20:39.948Z'
+}
+{
+  message: 'Received POST request for /v1/posts/create',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-03T03:20:43.776Z'
+}
+{
+  message: 'Request body: {"content":"five four sdaf","mediaIds":[]}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-03T03:20:43.776Z'
+}
+{
+  message: 'Response from post-service: 201',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-03T03:20:43.832Z'
+}
+{
+  message: 'Received GET request for /v1/search/posts?query=first',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-03T03:20:53.379Z'
+}
+{
+  message: 'Request body: {"content":"this is the big content that is bl;ajh b;laolh bl;ahj"}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-03T03:20:53.379Z'
+}
+{
+  message: 'Response from search-service: 200',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-03T03:20:53.435Z'
+}
+{
+  message: 'Received GET request for /v1/search/posts?query=second',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-03T03:21:29.352Z'
+}
+{
+  message: 'Request body: {"content":"this is the big content that is bl;ajh b;laolh bl;ahj"}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-03T03:21:29.352Z'
+}
+{
+  message: 'Response from search-service: 200',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-03T03:21:29.408Z'
+}
+{
+  message: 'Received GET request for /v1/search/posts?query=sec',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-03T03:21:40.561Z'
+}
+{
+  message: 'Request body: {"content":"this is the big content that is bl;ajh b;laolh bl;ahj"}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-03T03:21:40.562Z'
+}
+{
+  message: 'Response from search-service: 200',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-03T03:21:40.622Z'
+}
+{
+  message: 'Received GET request for /v1/search/posts?query=first',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-03T03:21:45.568Z'
+}
+{
+  message: 'Request body: {"content":"this is the big content that is bl;ajh b;laolh bl;ahj"}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-03T03:21:45.569Z'
+}
+{
+  message: 'Response from search-service: 200',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-03T03:21:45.626Z'
+}
+{
+  message: 'Received GET request for /v1/search/posts?query=firstttttt',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-03T03:21:47.923Z'
+}
+{
+  message: 'Request body: {"content":"this is the big content that is bl;ajh b;laolh bl;ahj"}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-03T03:21:47.923Z'
+}
+{
+  message: 'Response from search-service: 200',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-03T03:21:47.976Z'
+}
+{
+  message: 'Received GET request for /v1/search/posts?query=firstttttttt',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-03T03:21:49.546Z'
+}
+{
+  message: 'Request body: {"content":"this is the big content that is bl;ajh b;laolh bl;ahj"}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-03T03:21:49.546Z'
+}
+{
+  message: 'Response from search-service: 200',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-03T03:21:49.601Z'
+}
+{
+  message: 'Received GET request for /v1/search/posts?query=firsttttttttt',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-03T03:21:51.627Z'
+}
+{
+  message: 'Request body: {"content":"this is the big content that is bl;ajh b;laolh bl;ahj"}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-03T03:21:51.627Z'
+}
+{
+  message: 'Response from search-service: 200',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-03T03:21:51.676Z'
+}
+{
+  message: 'Received GET request for /v1/search/posts?query=firstttttt',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-03T03:21:54.554Z'
+}
+{
+  message: 'Request body: {"content":"this is the big content that is bl;ajh b;laolh bl;ahj"}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-03T03:21:54.555Z'
+}
+{
+  message: 'Response from search-service: 200',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-03T03:21:54.616Z'
+}
+{
+  message: 'Received GET request for /v1/search/posts?query=firsttttttt',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-03T03:22:32.249Z'
+}
+{
+  message: 'Request body: {"content":"this is the big content that is bl;ajh b;laolh bl;ahj"}',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-03T03:22:32.250Z'
+}
+{
+  message: 'Response from search-service: 200',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-03T03:22:32.302Z'
+}
+{
+  message: 'API Gateway listening on port 3000',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-03T03:25:42.900Z'
+}
+{
+  message: 'user service URL: http://localhost:3001',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-03T03:25:42.901Z'
+}
+{
+  message: 'post service URL: http://localhost:3002',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-03T03:25:42.902Z'
+}
+{
+  message: 'media service URL: http://localhost:3003',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-03T03:25:42.902Z'
+}
+{
+  message: 'search service URL: http://localhost:3004',
+  level: 'info',
+  service: 'api-gateway',
+  timestamp: '2025-09-03T03:25:42.902Z'
+}

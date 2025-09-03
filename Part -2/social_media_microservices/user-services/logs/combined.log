@@ -1966,3 +1966,951 @@
   service: 'user-service',
   timestamp: '2025-08-23T04:39:55.837Z'
 }
+{
+  message: 'Server running on port 3001',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-29T02:43:45.810Z'
+}
+{
+  service: 'user-service',
+  message: "Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/",
+  errorLabelSet: Set(0) {},
+  reason: TopologyDescription {
+    type: 'ReplicaSetNoPrimary',
+    servers: Map(3) {
+      'ac-hqc0sa6-shard-00-00.ep6vddc.mongodb.net:27017' => ServerDescription {
+        address: 'ac-hqc0sa6-shard-00-00.ep6vddc.mongodb.net:27017',
+        type: 'Unknown',
+        hosts: [],
+        passives: [],
+        arbiters: [],
+        tags: {},
+        minWireVersion: 0,
+        maxWireVersion: 0,
+        roundTripTime: -1,
+        minRoundTripTime: 0,
+        lastUpdateTime: 8099482,
+        lastWriteDate: 0,
+        error: MongoNetworkError: 04560000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1605:SSL alert number 80
+        
+            at TLSSocket.<anonymous> (C:\Users\Rishi\Desktop\backend\Part -2\social_media_microservices\user-services\node_modules\mongodb\lib\cmap\connect.js:286:44)
+            at Object.onceWrapper (node:events:633:26)
+            at TLSSocket.emit (node:events:518:28)
+            at emitErrorNT (node:internal/streams/destroy:170:8)
+            at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+            at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+          errorLabelSet: Set(1) { 'ResetPool' },
+          beforeHandshake: false,
+          [cause]: [Error: 04560000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1605:SSL alert number 80
+          ] {
+            library: 'SSL routines',
+            reason: 'tlsv1 alert internal error',
+            code: 'ERR_SSL_TLSV1_ALERT_INTERNAL_ERROR'
+          }
+        },
+        topologyVersion: null,
+        setName: null,
+        setVersion: null,
+        electionId: null,
+        logicalSessionTimeoutMinutes: null,
+        maxMessageSizeBytes: null,
+        maxWriteBatchSize: null,
+        maxBsonObjectSize: null,
+        primary: null,
+        me: null,
+        '$clusterTime': null,
+        iscryptd: false
+      },
+      'ac-hqc0sa6-shard-00-01.ep6vddc.mongodb.net:27017' => ServerDescription {
+        address: 'ac-hqc0sa6-shard-00-01.ep6vddc.mongodb.net:27017',
+        type: 'Unknown',
+        hosts: [],
+        passives: [],
+        arbiters: [],
+        tags: {},
+        minWireVersion: 0,
+        maxWireVersion: 0,
+        roundTripTime: -1,
+        minRoundTripTime: 0,
+        lastUpdateTime: 8099479,
+        lastWriteDate: 0,
+        error: MongoNetworkError: 04560000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1605:SSL alert number 80
+        
+            at TLSSocket.<anonymous> (C:\Users\Rishi\Desktop\backend\Part -2\social_media_microservices\user-services\node_modules\mongodb\lib\cmap\connect.js:286:44)
+            at Object.onceWrapper (node:events:633:26)
+            at TLSSocket.emit (node:events:518:28)
+            at emitErrorNT (node:internal/streams/destroy:170:8)
+            at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+            at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+          errorLabelSet: Set(1) { 'ResetPool' },
+          beforeHandshake: false,
+          [cause]: [Error: 04560000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1605:SSL alert number 80
+          ] {
+            library: 'SSL routines',
+            reason: 'tlsv1 alert internal error',
+            code: 'ERR_SSL_TLSV1_ALERT_INTERNAL_ERROR'
+          }
+        },
+        topologyVersion: null,
+        setName: null,
+        setVersion: null,
+        electionId: null,
+        logicalSessionTimeoutMinutes: null,
+        maxMessageSizeBytes: null,
+        maxWriteBatchSize: null,
+        maxBsonObjectSize: null,
+        primary: null,
+        me: null,
+        '$clusterTime': null,
+        iscryptd: false
+      },
+      'ac-hqc0sa6-shard-00-02.ep6vddc.mongodb.net:27017' => ServerDescription {
+        address: 'ac-hqc0sa6-shard-00-02.ep6vddc.mongodb.net:27017',
+        type: 'Unknown',
+        hosts: [],
+        passives: [],
+        arbiters: [],
+        tags: {},
+        minWireVersion: 0,
+        maxWireVersion: 0,
+        roundTripTime: -1,
+        minRoundTripTime: 0,
+        lastUpdateTime: 8099574,
+        lastWriteDate: 0,
+        error: MongoNetworkError: 04560000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1605:SSL alert number 80
+        
+            at TLSSocket.<anonymous> (C:\Users\Rishi\Desktop\backend\Part -2\social_media_microservices\user-services\node_modules\mongodb\lib\cmap\connect.js:286:44)
+            at Object.onceWrapper (node:events:633:26)
+            at TLSSocket.emit (node:events:518:28)
+            at emitErrorNT (node:internal/streams/destroy:170:8)
+            at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+            at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+          errorLabelSet: Set(1) { 'ResetPool' },
+          beforeHandshake: false,
+          [cause]: [Error: 04560000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1605:SSL alert number 80
+          ] {
+            library: 'SSL routines',
+            reason: 'tlsv1 alert internal error',
+            code: 'ERR_SSL_TLSV1_ALERT_INTERNAL_ERROR'
+          }
+        },
+        topologyVersion: null,
+        setName: null,
+        setVersion: null,
+        electionId: null,
+        logicalSessionTimeoutMinutes: null,
+        maxMessageSizeBytes: null,
+        maxWriteBatchSize: null,
+        maxBsonObjectSize: null,
+        primary: null,
+        me: null,
+        '$clusterTime': null,
+        iscryptd: false
+      }
+    },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: 'atlas-10bc9e-shard-0',
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined,
+  cause: TopologyDescription {
+    type: 'ReplicaSetNoPrimary',
+    servers: Map(3) {
+      'ac-hqc0sa6-shard-00-00.ep6vddc.mongodb.net:27017' => ServerDescription {
+        address: 'ac-hqc0sa6-shard-00-00.ep6vddc.mongodb.net:27017',
+        type: 'Unknown',
+        hosts: [],
+        passives: [],
+        arbiters: [],
+        tags: {},
+        minWireVersion: 0,
+        maxWireVersion: 0,
+        roundTripTime: -1,
+        minRoundTripTime: 0,
+        lastUpdateTime: 8099482,
+        lastWriteDate: 0,
+        error: MongoNetworkError: 04560000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1605:SSL alert number 80
+        
+            at TLSSocket.<anonymous> (C:\Users\Rishi\Desktop\backend\Part -2\social_media_microservices\user-services\node_modules\mongodb\lib\cmap\connect.js:286:44)
+            at Object.onceWrapper (node:events:633:26)
+            at TLSSocket.emit (node:events:518:28)
+            at emitErrorNT (node:internal/streams/destroy:170:8)
+            at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+            at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+          errorLabelSet: Set(1) { 'ResetPool' },
+          beforeHandshake: false,
+          [cause]: [Error: 04560000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1605:SSL alert number 80
+          ] {
+            library: 'SSL routines',
+            reason: 'tlsv1 alert internal error',
+            code: 'ERR_SSL_TLSV1_ALERT_INTERNAL_ERROR'
+          }
+        },
+        topologyVersion: null,
+        setName: null,
+        setVersion: null,
+        electionId: null,
+        logicalSessionTimeoutMinutes: null,
+        maxMessageSizeBytes: null,
+        maxWriteBatchSize: null,
+        maxBsonObjectSize: null,
+        primary: null,
+        me: null,
+        '$clusterTime': null,
+        iscryptd: false
+      },
+      'ac-hqc0sa6-shard-00-01.ep6vddc.mongodb.net:27017' => ServerDescription {
+        address: 'ac-hqc0sa6-shard-00-01.ep6vddc.mongodb.net:27017',
+        type: 'Unknown',
+        hosts: [],
+        passives: [],
+        arbiters: [],
+        tags: {},
+        minWireVersion: 0,
+        maxWireVersion: 0,
+        roundTripTime: -1,
+        minRoundTripTime: 0,
+        lastUpdateTime: 8099479,
+        lastWriteDate: 0,
+        error: MongoNetworkError: 04560000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1605:SSL alert number 80
+        
+            at TLSSocket.<anonymous> (C:\Users\Rishi\Desktop\backend\Part -2\social_media_microservices\user-services\node_modules\mongodb\lib\cmap\connect.js:286:44)
+            at Object.onceWrapper (node:events:633:26)
+            at TLSSocket.emit (node:events:518:28)
+            at emitErrorNT (node:internal/streams/destroy:170:8)
+            at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+            at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+          errorLabelSet: Set(1) { 'ResetPool' },
+          beforeHandshake: false,
+          [cause]: [Error: 04560000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1605:SSL alert number 80
+          ] {
+            library: 'SSL routines',
+            reason: 'tlsv1 alert internal error',
+            code: 'ERR_SSL_TLSV1_ALERT_INTERNAL_ERROR'
+          }
+        },
+        topologyVersion: null,
+        setName: null,
+        setVersion: null,
+        electionId: null,
+        logicalSessionTimeoutMinutes: null,
+        maxMessageSizeBytes: null,
+        maxWriteBatchSize: null,
+        maxBsonObjectSize: null,
+        primary: null,
+        me: null,
+        '$clusterTime': null,
+        iscryptd: false
+      },
+      'ac-hqc0sa6-shard-00-02.ep6vddc.mongodb.net:27017' => ServerDescription {
+        address: 'ac-hqc0sa6-shard-00-02.ep6vddc.mongodb.net:27017',
+        type: 'Unknown',
+        hosts: [],
+        passives: [],
+        arbiters: [],
+        tags: {},
+        minWireVersion: 0,
+        maxWireVersion: 0,
+        roundTripTime: -1,
+        minRoundTripTime: 0,
+        lastUpdateTime: 8099574,
+        lastWriteDate: 0,
+        error: MongoNetworkError: 04560000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1605:SSL alert number 80
+        
+            at TLSSocket.<anonymous> (C:\Users\Rishi\Desktop\backend\Part -2\social_media_microservices\user-services\node_modules\mongodb\lib\cmap\connect.js:286:44)
+            at Object.onceWrapper (node:events:633:26)
+            at TLSSocket.emit (node:events:518:28)
+            at emitErrorNT (node:internal/streams/destroy:170:8)
+            at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+            at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+          errorLabelSet: Set(1) { 'ResetPool' },
+          beforeHandshake: false,
+          [cause]: [Error: 04560000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1605:SSL alert number 80
+          ] {
+            library: 'SSL routines',
+            reason: 'tlsv1 alert internal error',
+            code: 'ERR_SSL_TLSV1_ALERT_INTERNAL_ERROR'
+          }
+        },
+        topologyVersion: null,
+        setName: null,
+        setVersion: null,
+        electionId: null,
+        logicalSessionTimeoutMinutes: null,
+        maxMessageSizeBytes: null,
+        maxWriteBatchSize: null,
+        maxBsonObjectSize: null,
+        primary: null,
+        me: null,
+        '$clusterTime': null,
+        iscryptd: false
+      }
+    },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: 'atlas-10bc9e-shard-0',
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  level: 'error',
+  stack: "MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/\n" +
+    '    at _handleConnectionErrors (C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\user-services\\node_modules\\mongoose\\lib\\connection.js:1165:11)\n' +
+    '    at NativeConnection.openUri (C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\user-services\\node_modules\\mongoose\\lib\\connection.js:1096:11)',
+  timestamp: '2025-08-29T02:44:15.906Z'
+}
+{
+  message: 'Server running on port 3001',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-29T02:46:18.698Z'
+}
+{
+  message: 'MongoDB connected',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-29T02:46:19.493Z'
+}
+{
+  message: 'Received POST request for /api/auth/login',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-29T02:49:53.733Z'
+}
+{
+  message: 'Request body: {"email":"a@gmail.com","password":"asdfasdf"}',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-29T02:49:53.734Z'
+}
+{
+  message: 'User login started',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-29T02:49:53.735Z'
+}
+{
+  message: 'Received POST request for /api/auth/login',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-29T03:13:55.578Z'
+}
+{
+  message: 'Request body: {"email":"a@gmail.com","password":"asdfasdf"}',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-29T03:13:55.579Z'
+}
+{
+  message: 'User login started',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-29T03:13:55.579Z'
+}
+{
+  message: 'Received POST request for /api/auth/login',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-29T03:37:18.679Z'
+}
+{
+  message: 'Request body: {"email":"a@gmail.com","password":"asdfasdf"}',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-29T03:37:18.680Z'
+}
+{
+  message: 'User login started',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-29T03:37:18.681Z'
+}
+{
+  message: 'Server running on port 3001',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-29T04:00:11.545Z'
+}
+{
+  message: 'MongoDB connected',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-29T04:00:12.296Z'
+}
+{
+  message: 'Server running on port 3001',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-29T06:59:01.040Z'
+}
+{
+  message: 'MongoDB connected',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-29T06:59:02.025Z'
+}
+{
+  message: 'Received POST request for /api/auth/login',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-29T06:59:52.607Z'
+}
+{
+  message: 'Request body: {"email":"a@gmail.com","password":"asdfasdf"}',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-29T06:59:52.607Z'
+}
+{
+  message: 'User login started',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-29T06:59:52.609Z'
+}
+{
+  message: 'Server running on port 3001',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-29T07:53:14.191Z'
+}
+{
+  message: 'MongoDB connected',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-08-29T07:53:14.876Z'
+}
+{
+  message: 'Server running on port 3001',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-09-01T05:16:21.138Z'
+}
+{
+  service: 'user-service',
+  message: "Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/",
+  errorLabelSet: Set(0) {},
+  reason: TopologyDescription {
+    type: 'ReplicaSetNoPrimary',
+    servers: Map(3) {
+      'ac-hqc0sa6-shard-00-00.ep6vddc.mongodb.net:27017' => ServerDescription {
+        address: 'ac-hqc0sa6-shard-00-00.ep6vddc.mongodb.net:27017',
+        type: 'Unknown',
+        hosts: [],
+        passives: [],
+        arbiters: [],
+        tags: {},
+        minWireVersion: 0,
+        maxWireVersion: 0,
+        roundTripTime: -1,
+        minRoundTripTime: 0,
+        lastUpdateTime: 1201830,
+        lastWriteDate: 0,
+        error: MongoNetworkError: 14120000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1605:SSL alert number 80
+        
+            at TLSSocket.<anonymous> (C:\Users\Rishi\Desktop\backend\Part -2\social_media_microservices\user-services\node_modules\mongodb\lib\cmap\connect.js:286:44)
+            at Object.onceWrapper (node:events:633:26)
+            at TLSSocket.emit (node:events:518:28)
+            at emitErrorNT (node:internal/streams/destroy:170:8)
+            at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+            at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+          errorLabelSet: Set(1) { 'ResetPool' },
+          beforeHandshake: false,
+          [cause]: [Error: 14120000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1605:SSL alert number 80
+          ] {
+            library: 'SSL routines',
+            reason: 'tlsv1 alert internal error',
+            code: 'ERR_SSL_TLSV1_ALERT_INTERNAL_ERROR'
+          }
+        },
+        topologyVersion: null,
+        setName: null,
+        setVersion: null,
+        electionId: null,
+        logicalSessionTimeoutMinutes: null,
+        maxMessageSizeBytes: null,
+        maxWriteBatchSize: null,
+        maxBsonObjectSize: null,
+        primary: null,
+        me: null,
+        '$clusterTime': null,
+        iscryptd: false
+      },
+      'ac-hqc0sa6-shard-00-02.ep6vddc.mongodb.net:27017' => ServerDescription {
+        address: 'ac-hqc0sa6-shard-00-02.ep6vddc.mongodb.net:27017',
+        type: 'Unknown',
+        hosts: [],
+        passives: [],
+        arbiters: [],
+        tags: {},
+        minWireVersion: 0,
+        maxWireVersion: 0,
+        roundTripTime: -1,
+        minRoundTripTime: 0,
+        lastUpdateTime: 1201875,
+        lastWriteDate: 0,
+        error: MongoNetworkError: 14120000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1605:SSL alert number 80
+        
+            at TLSSocket.<anonymous> (C:\Users\Rishi\Desktop\backend\Part -2\social_media_microservices\user-services\node_modules\mongodb\lib\cmap\connect.js:286:44)
+            at Object.onceWrapper (node:events:633:26)
+            at TLSSocket.emit (node:events:518:28)
+            at emitErrorNT (node:internal/streams/destroy:170:8)
+            at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+            at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+          errorLabelSet: Set(1) { 'ResetPool' },
+          beforeHandshake: false,
+          [cause]: [Error: 14120000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1605:SSL alert number 80
+          ] {
+            library: 'SSL routines',
+            reason: 'tlsv1 alert internal error',
+            code: 'ERR_SSL_TLSV1_ALERT_INTERNAL_ERROR'
+          }
+        },
+        topologyVersion: null,
+        setName: null,
+        setVersion: null,
+        electionId: null,
+        logicalSessionTimeoutMinutes: null,
+        maxMessageSizeBytes: null,
+        maxWriteBatchSize: null,
+        maxBsonObjectSize: null,
+        primary: null,
+        me: null,
+        '$clusterTime': null,
+        iscryptd: false
+      },
+      'ac-hqc0sa6-shard-00-01.ep6vddc.mongodb.net:27017' => ServerDescription {
+        address: 'ac-hqc0sa6-shard-00-01.ep6vddc.mongodb.net:27017',
+        type: 'Unknown',
+        hosts: [],
+        passives: [],
+        arbiters: [],
+        tags: {},
+        minWireVersion: 0,
+        maxWireVersion: 0,
+        roundTripTime: -1,
+        minRoundTripTime: 0,
+        lastUpdateTime: 1201942,
+        lastWriteDate: 0,
+        error: MongoNetworkError: 14120000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1605:SSL alert number 80
+        
+            at TLSSocket.<anonymous> (C:\Users\Rishi\Desktop\backend\Part -2\social_media_microservices\user-services\node_modules\mongodb\lib\cmap\connect.js:286:44)
+            at Object.onceWrapper (node:events:633:26)
+            at TLSSocket.emit (node:events:518:28)
+            at emitErrorNT (node:internal/streams/destroy:170:8)
+            at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+            at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+          errorLabelSet: Set(1) { 'ResetPool' },
+          beforeHandshake: false,
+          [cause]: [Error: 14120000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1605:SSL alert number 80
+          ] {
+            library: 'SSL routines',
+            reason: 'tlsv1 alert internal error',
+            code: 'ERR_SSL_TLSV1_ALERT_INTERNAL_ERROR'
+          }
+        },
+        topologyVersion: null,
+        setName: null,
+        setVersion: null,
+        electionId: null,
+        logicalSessionTimeoutMinutes: null,
+        maxMessageSizeBytes: null,
+        maxWriteBatchSize: null,
+        maxBsonObjectSize: null,
+        primary: null,
+        me: null,
+        '$clusterTime': null,
+        iscryptd: false
+      }
+    },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: 'atlas-10bc9e-shard-0',
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined,
+  cause: TopologyDescription {
+    type: 'ReplicaSetNoPrimary',
+    servers: Map(3) {
+      'ac-hqc0sa6-shard-00-00.ep6vddc.mongodb.net:27017' => ServerDescription {
+        address: 'ac-hqc0sa6-shard-00-00.ep6vddc.mongodb.net:27017',
+        type: 'Unknown',
+        hosts: [],
+        passives: [],
+        arbiters: [],
+        tags: {},
+        minWireVersion: 0,
+        maxWireVersion: 0,
+        roundTripTime: -1,
+        minRoundTripTime: 0,
+        lastUpdateTime: 1201830,
+        lastWriteDate: 0,
+        error: MongoNetworkError: 14120000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1605:SSL alert number 80
+        
+            at TLSSocket.<anonymous> (C:\Users\Rishi\Desktop\backend\Part -2\social_media_microservices\user-services\node_modules\mongodb\lib\cmap\connect.js:286:44)
+            at Object.onceWrapper (node:events:633:26)
+            at TLSSocket.emit (node:events:518:28)
+            at emitErrorNT (node:internal/streams/destroy:170:8)
+            at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+            at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+          errorLabelSet: Set(1) { 'ResetPool' },
+          beforeHandshake: false,
+          [cause]: [Error: 14120000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1605:SSL alert number 80
+          ] {
+            library: 'SSL routines',
+            reason: 'tlsv1 alert internal error',
+            code: 'ERR_SSL_TLSV1_ALERT_INTERNAL_ERROR'
+          }
+        },
+        topologyVersion: null,
+        setName: null,
+        setVersion: null,
+        electionId: null,
+        logicalSessionTimeoutMinutes: null,
+        maxMessageSizeBytes: null,
+        maxWriteBatchSize: null,
+        maxBsonObjectSize: null,
+        primary: null,
+        me: null,
+        '$clusterTime': null,
+        iscryptd: false
+      },
+      'ac-hqc0sa6-shard-00-02.ep6vddc.mongodb.net:27017' => ServerDescription {
+        address: 'ac-hqc0sa6-shard-00-02.ep6vddc.mongodb.net:27017',
+        type: 'Unknown',
+        hosts: [],
+        passives: [],
+        arbiters: [],
+        tags: {},
+        minWireVersion: 0,
+        maxWireVersion: 0,
+        roundTripTime: -1,
+        minRoundTripTime: 0,
+        lastUpdateTime: 1201875,
+        lastWriteDate: 0,
+        error: MongoNetworkError: 14120000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1605:SSL alert number 80
+        
+            at TLSSocket.<anonymous> (C:\Users\Rishi\Desktop\backend\Part -2\social_media_microservices\user-services\node_modules\mongodb\lib\cmap\connect.js:286:44)
+            at Object.onceWrapper (node:events:633:26)
+            at TLSSocket.emit (node:events:518:28)
+            at emitErrorNT (node:internal/streams/destroy:170:8)
+            at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+            at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+          errorLabelSet: Set(1) { 'ResetPool' },
+          beforeHandshake: false,
+          [cause]: [Error: 14120000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1605:SSL alert number 80
+          ] {
+            library: 'SSL routines',
+            reason: 'tlsv1 alert internal error',
+            code: 'ERR_SSL_TLSV1_ALERT_INTERNAL_ERROR'
+          }
+        },
+        topologyVersion: null,
+        setName: null,
+        setVersion: null,
+        electionId: null,
+        logicalSessionTimeoutMinutes: null,
+        maxMessageSizeBytes: null,
+        maxWriteBatchSize: null,
+        maxBsonObjectSize: null,
+        primary: null,
+        me: null,
+        '$clusterTime': null,
+        iscryptd: false
+      },
+      'ac-hqc0sa6-shard-00-01.ep6vddc.mongodb.net:27017' => ServerDescription {
+        address: 'ac-hqc0sa6-shard-00-01.ep6vddc.mongodb.net:27017',
+        type: 'Unknown',
+        hosts: [],
+        passives: [],
+        arbiters: [],
+        tags: {},
+        minWireVersion: 0,
+        maxWireVersion: 0,
+        roundTripTime: -1,
+        minRoundTripTime: 0,
+        lastUpdateTime: 1201942,
+        lastWriteDate: 0,
+        error: MongoNetworkError: 14120000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1605:SSL alert number 80
+        
+            at TLSSocket.<anonymous> (C:\Users\Rishi\Desktop\backend\Part -2\social_media_microservices\user-services\node_modules\mongodb\lib\cmap\connect.js:286:44)
+            at Object.onceWrapper (node:events:633:26)
+            at TLSSocket.emit (node:events:518:28)
+            at emitErrorNT (node:internal/streams/destroy:170:8)
+            at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+            at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+          errorLabelSet: Set(1) { 'ResetPool' },
+          beforeHandshake: false,
+          [cause]: [Error: 14120000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1605:SSL alert number 80
+          ] {
+            library: 'SSL routines',
+            reason: 'tlsv1 alert internal error',
+            code: 'ERR_SSL_TLSV1_ALERT_INTERNAL_ERROR'
+          }
+        },
+        topologyVersion: null,
+        setName: null,
+        setVersion: null,
+        electionId: null,
+        logicalSessionTimeoutMinutes: null,
+        maxMessageSizeBytes: null,
+        maxWriteBatchSize: null,
+        maxBsonObjectSize: null,
+        primary: null,
+        me: null,
+        '$clusterTime': null,
+        iscryptd: false
+      }
+    },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: 'atlas-10bc9e-shard-0',
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  level: 'error',
+  stack: "MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/\n" +
+    '    at _handleConnectionErrors (C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\user-services\\node_modules\\mongoose\\lib\\connection.js:1165:11)\n' +
+    '    at NativeConnection.openUri (C:\\Users\\Rishi\\Desktop\\backend\\Part -2\\social_media_microservices\\user-services\\node_modules\\mongoose\\lib\\connection.js:1096:11)',
+  timestamp: '2025-09-01T05:16:51.199Z'
+}
+{
+  message: 'Server running on port 3001',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-09-01T05:18:51.946Z'
+}
+{
+  message: 'MongoDB connected',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-09-01T05:18:52.610Z'
+}
+{
+  message: 'Received POST request for /api/auth/login',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-09-01T05:30:47.201Z'
+}
+{
+  message: 'Request body: {"email":"a@gmail.com","password":"asdfasdf"}',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-09-01T05:30:47.202Z'
+}
+{
+  message: 'User login started',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-09-01T05:30:47.204Z'
+}
+{
+  message: 'Server running on port 3001',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-09-01T06:19:43.625Z'
+}
+{
+  message: 'MongoDB connected',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-09-01T06:19:44.470Z'
+}
+{
+  message: 'Server running on port 3001',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-09-01T14:40:25.316Z'
+}
+{
+  message: 'MongoDB connected',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-09-01T14:40:34.293Z'
+}
+{
+  message: 'Received POST request for /api/auth/login',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-09-01T14:41:28.676Z'
+}
+{
+  message: 'Request body: {"email":"a@gmail.com","password":"asdfasdf"}',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-09-01T14:41:28.677Z'
+}
+{
+  message: 'User login started',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-09-01T14:41:28.678Z'
+}
+{
+  message: 'Received POST request for /api/auth/login',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-09-01T15:37:40.214Z'
+}
+{
+  message: 'Request body: {"email":"a@gmail.com","password":"asdfasdf"}',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-09-01T15:37:40.214Z'
+}
+{
+  message: 'User login started',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-09-01T15:37:40.215Z'
+}
+{
+  message: 'Server running on port 3001',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-09-01T16:22:55.485Z'
+}
+{
+  message: 'MongoDB connected',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-09-01T16:22:56.291Z'
+}
+{
+  message: 'Server running on port 3001',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-09-02T03:18:38.885Z'
+}
+{
+  message: 'MongoDB connected',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-09-02T03:18:39.473Z'
+}
+{
+  message: 'Received POST request for /api/auth/login',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-09-02T03:26:15.343Z'
+}
+{
+  message: 'Request body: {"email":"a@gmail.com","password":"asdfasdf"}',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-09-02T03:26:15.344Z'
+}
+{
+  message: 'User login started',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-09-02T03:26:15.346Z'
+}
+{
+  message: 'Received POST request for /api/auth/login',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-09-02T03:44:08.862Z'
+}
+{
+  message: 'Request body: {"email":"a@gmail.com","password":"asdfasdf"}',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-09-02T03:44:08.862Z'
+}
+{
+  message: 'User login started',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-09-02T03:44:08.863Z'
+}
+{
+  message: 'Server running on port 3001',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-09-02T04:04:18.284Z'
+}
+{
+  message: 'MongoDB connected',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-09-02T04:04:19.681Z'
+}
+{
+  message: 'Server running on port 3001',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-09-03T02:51:01.928Z'
+}
+{
+  message: 'MongoDB connected',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-09-03T02:51:02.502Z'
+}
+{
+  message: 'Received POST request for /api/auth/login',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-09-03T02:53:59.318Z'
+}
+{
+  message: 'Request body: {"email":"a@gmail.com","password":"asdfasdf"}',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-09-03T02:53:59.319Z'
+}
+{
+  message: 'User login started',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-09-03T02:53:59.322Z'
+}
+{
+  message: 'Received POST request for /api/auth/login',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-09-03T03:18:34.011Z'
+}
+{
+  message: 'Request body: {"email":"a@gmail.com","password":"asdfasdf"}',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-09-03T03:18:34.012Z'
+}
+{
+  message: 'User login started',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-09-03T03:18:34.012Z'
+}
+{
+  message: 'Server running on port 3001',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-09-03T03:25:43.117Z'
+}
+{
+  message: 'MongoDB connected',
+  level: 'info',
+  service: 'user-service',
+  timestamp: '2025-09-03T03:25:44.080Z'
+}

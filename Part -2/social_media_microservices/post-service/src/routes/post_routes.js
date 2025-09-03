@@ -11,6 +11,6 @@ router.use(authenticateRequest)
 router.post('/create', createPost);
 router.get('/', getAllPosts);
 router.get('/:id', getPostById);
-router.delete('/:id', deletePost);
+router.delete('/delete/:id', deletePost);
 
 module.exports = router;
